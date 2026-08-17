@@ -1,18 +1,59 @@
-# Genomic TRF IG source package
+# Genomic Test Requisition Form (TRF) Implementation Guide
 
-This package formalizes the cross-vendor genomic TRF model as a FHIR R6 draft IG source.
+This repository contains the source for the Genomic TRF Implementation Guide, which formalizes the cross-vendor genomic test requisition form model as a FHIR R4 Implementation Guide.
+
+## Published IG
+
+The latest version is automatically published at: **https://jlyle1.github.io/genomic-trf-ig/**
+
+The IG is automatically rebuilt and deployed on every push to the master branch via GitHub Actions.
 
 ## Contents
 
-* `input/fsh/genomic-trf.fsh` - core profiles and terminology.
-* `input/examples/Bundle-genomic-trf-synthetic.json` - synthetic scenario example.
-* `input/pagecontent/` - publication narrative, profiles, scenarios, and testing guidance.
-* `inferno/` - custom-kit starter and scenario assertion matrix.
+* `input/fsh/genomic-trf.fsh` - core profiles and terminology defined in FHIR Shorthand
+* `input/examples/Bundle-genomic-trf-synthetic.json` - synthetic scenario example
+* `input/pagecontent/` - publication narrative, profiles, scenarios, and testing guidance
+* `inferno/` - custom test kit starter and scenario assertion matrix
 
-## Build
+## Building Locally
 
-Install a current IG Publisher and a FHIR Shorthand toolchain that can resolve `hl7.fhir.r6.core#6.0.0-ballot5`, then run SUSHI followed by the IG Publisher from this directory. The package has not been publisher-built in this workspace because no SUSHI or IG Publisher binary is installed.
+### Prerequisites
+- Java 17 or higher
+- Node.js 18 or higher (for SUSHI)
 
-## Version and testing decision
+### Quick Build
 
-This IG retains the established R6 ballot model. Inferno custom test kits are appropriate for IG-specific semantic checks, but the deployed kit/validator must support the same R6 package. A separate R4B/R5 compatibility IG should be created for an Inferno deployment pinned to those releases; R6 examples must not be silently down-converted.
+**Windows:**
+```bash
+_genonce.bat
+```
+
+**Linux/Mac:**
+```bash
+./_genonce.sh
+```
+
+The build scripts will automatically:
+- Download the IG Publisher (~200MB) on first run
+- Install FHIR Shorthand (SUSHI) if needed
+- Build the complete IG to the `output/` directory
+
+### Interactive Build Menu (Windows)
+```bash
+_build.bat
+```
+
+Provides options for:
+- Updating the IG Publisher
+- Building with different configurations
+- Continuous watch mode
+- Cleanup operations
+
+## FHIR Version
+
+This IG is built on **FHIR R4 (4.0.1)** and depends on:
+- `hl7.fhir.uv.genomics-reporting` version 3.0.0
+
+## Testing
+
+Inferno custom test kits in the `inferno/` directory provide IG-specific semantic checks and scenario validation.
