@@ -1,0 +1,212 @@
+{
+  "ImplementationGuide/genomic-trf" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 0,
+    "source" : "C:\\repos\\genomic-trf-ig\\fsh-generated\\resources\\ImplementationGuide-genomic-trf.json",
+    "sourceTail" : "ImplementationGuide-genomic-trf.json",
+    "path" : "index.html",
+    "url" : "https://example.org/fhir/uv/genomic-trf/ImplementationGuide/genomic-trf",
+    "version" : "0.1.0",
+    "name" : "GenomicTRFIG",
+    "title" : "Genomic Test Requisition Form (TRF) Implementation Guide",
+    "titlelang" : {
+    },
+    "date" : "2026-08-17T15:01:13-04:00",
+    "status" : {
+      "class" : "colsd",
+      "owner" : "Example Genomic Interoperability Program",
+      "link" : "https://example.org",
+      "status" : "Draft"
+    }
+  },
+  "CodeSystem/genomic-trf-order-category" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 1,
+    "source" : "fsh-generated/resources/CodeSystem-genomic-trf-order-category.json",
+    "sourceTail" : "CodeSystem-genomic-trf-order-category.json",
+    "content" : "complete",
+    "path" : "CodeSystem-genomic-trf-order-category.html",
+    "url" : "https://example.org/fhir/uv/genomic-trf/CodeSystem/genomic-trf-order-category",
+    "version" : "0.1.0",
+    "name" : "GenomicTRFOrderCategoryCS",
+    "title" : "Genomic TRF Order Category",
+    "titlelang" : {
+    },
+    "experimental" : true,
+    "date" : "2026-08-17T15:01:13-04:00",
+    "description" : "High-level order categories used in the Genomic TRF IG.",
+    "descriptionlang" : {
+    },
+    "status" : {
+      "class" : "colsd",
+      "owner" : "Example Genomic Interoperability Program",
+      "link" : "https://example.org",
+      "status" : "Draft"
+    }
+  },
+  "StructureDefinition/genomic-test-order" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 2,
+    "source" : "fsh-generated/resources/StructureDefinition-genomic-test-order.json",
+    "sourceTail" : "StructureDefinition-genomic-test-order.json",
+    "path" : "StructureDefinition-genomic-test-order.html",
+    "url" : "https://example.org/fhir/uv/genomic-trf/StructureDefinition/genomic-test-order",
+    "version" : "0.1.0",
+    "name" : "GenomicTestOrder",
+    "title" : "Genomic Test Order",
+    "titlelang" : {
+    },
+    "date" : "2026-08-17T15:01:13-04:00",
+    "description" : "A ServiceRequest used to authorize one independently actionable genomic testing service.",
+    "descriptionlang" : {
+    },
+    "status" : {
+      "class" : "colsd",
+      "owner" : "Example Genomic Interoperability Program",
+      "link" : "https://example.org",
+      "status" : "Draft"
+    }
+  },
+  "StructureDefinition/genomic-trf-questionnaire-response" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 3,
+    "source" : "fsh-generated/resources/StructureDefinition-genomic-trf-questionnaire-response.json",
+    "sourceTail" : "StructureDefinition-genomic-trf-questionnaire-response.json",
+    "path" : "StructureDefinition-genomic-trf-questionnaire-response.html",
+    "url" : "https://example.org/fhir/uv/genomic-trf/StructureDefinition/genomic-trf-questionnaire-response",
+    "version" : "0.1.0",
+    "name" : "GenomicTRFQuestionnaireResponse",
+    "title" : "Genomic TRF Questionnaire Response",
+    "titlelang" : {
+    },
+    "date" : "2026-08-17T15:01:13-04:00",
+    "description" : "A completed TRF/AOE response with explicit order provenance.",
+    "descriptionlang" : {
+    },
+    "status" : {
+      "class" : "colsd",
+      "owner" : "Example Genomic Interoperability Program",
+      "link" : "https://example.org",
+      "status" : "Draft"
+    }
+  },
+  "StructureDefinition/genomic-trf-specimen" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 4,
+    "source" : "fsh-generated/resources/StructureDefinition-genomic-trf-specimen.json",
+    "sourceTail" : "StructureDefinition-genomic-trf-specimen.json",
+    "path" : "StructureDefinition-genomic-trf-specimen.html",
+    "url" : "https://example.org/fhir/uv/genomic-trf/StructureDefinition/genomic-trf-specimen",
+    "version" : "0.1.0",
+    "name" : "GenomicTRFSpecimen",
+    "title" : "Genomic TRF Specimen",
+    "titlelang" : {
+    },
+    "date" : "2026-08-17T15:01:13-04:00",
+    "description" : "A specimen collected or retrieved to fulfill a genomic test order.",
+    "descriptionlang" : {
+    },
+    "status" : {
+      "class" : "colsd",
+      "owner" : "Example Genomic Interoperability Program",
+      "link" : "https://example.org",
+      "status" : "Draft"
+    }
+  },
+  "StructureDefinition/genomic-trf-study" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 5,
+    "source" : "fsh-generated/resources/StructureDefinition-genomic-trf-study.json",
+    "sourceTail" : "StructureDefinition-genomic-trf-study.json",
+    "path" : "StructureDefinition-genomic-trf-study.html",
+    "url" : "https://example.org/fhir/uv/genomic-trf/StructureDefinition/genomic-trf-study",
+    "version" : "0.1.0",
+    "name" : "GenomicTRFStudy",
+    "title" : "Genomic TRF Study",
+    "titlelang" : {
+    },
+    "date" : "2026-08-17T15:01:13-04:00",
+    "description" : "A genomic study initiated to fulfill a genomic test order.",
+    "descriptionlang" : {
+    },
+    "status" : {
+      "class" : "colsd",
+      "owner" : "Example Genomic Interoperability Program",
+      "link" : "https://example.org",
+      "status" : "Draft"
+    }
+  },
+  "StructureDefinition/order-detail-parameter" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 6,
+    "source" : "fsh-generated/resources/StructureDefinition-order-detail-parameter.json",
+    "sourceTail" : "StructureDefinition-order-detail-parameter.json",
+    "path" : "StructureDefinition-order-detail-parameter.html",
+    "url" : "https://example.org/fhir/uv/genomic-trf/StructureDefinition/order-detail-parameter",
+    "version" : "0.1.0",
+    "name" : "OrderDetailParameter",
+    "title" : "Order Detail Parameter (R6 Pre-adoption)",
+    "titlelang" : {
+    },
+    "experimental" : true,
+    "date" : "2026-08-17T15:01:13-04:00",
+    "description" : "Structured key-value parameters for order details. This extension pre-adopts the R6 ServiceRequest.orderDetail.parameter structure to enable computable order instructions in R4. Each instance represents one parameter with a code and a typed value.",
+    "descriptionlang" : {
+    },
+    "status" : {
+      "class" : "colsd",
+      "owner" : "Example Genomic Interoperability Program",
+      "link" : "https://example.org",
+      "status" : "Draft"
+    }
+  },
+  "ValueSet/genomic-trf-order-category" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 7,
+    "source" : "fsh-generated/resources/ValueSet-genomic-trf-order-category.json",
+    "sourceTail" : "ValueSet-genomic-trf-order-category.json",
+    "path" : "ValueSet-genomic-trf-order-category.html",
+    "url" : "https://example.org/fhir/uv/genomic-trf/ValueSet/genomic-trf-order-category",
+    "version" : "0.1.0",
+    "name" : "GenomicTRFOrderCategoryVS",
+    "title" : "Genomic TRF Order Category ValueSet",
+    "titlelang" : {
+    },
+    "experimental" : true,
+    "date" : "2026-08-17T15:01:13-04:00",
+    "description" : "Permitted high-level genomic requisition categories.",
+    "descriptionlang" : {
+    },
+    "status" : {
+      "class" : "colsd",
+      "owner" : "Example Genomic Interoperability Program",
+      "link" : "https://example.org",
+      "status" : "Draft"
+    }
+  },
+  "Bundle/genomic-test-order-trf-example" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 8,
+    "source" : "C:\\repos\\genomic-trf-ig\\input\\examples\\bundle-genomic-test-order-trf-example.json",
+    "sourceTail" : "bundle-genomic-test-order-trf-example.json",
+    "path" : "Bundle-genomic-test-order-trf-example.html"
+  }
+}

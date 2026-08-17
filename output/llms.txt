@@ -1,0 +1,38 @@
+# genomic-trf#0.1.0: Genomic Test Requisition Form (TRF) Implementation Guide
+
+## Pages
+
+* [Home](index.md)
+* [Artifacts Summary](artifacts.md)
+* [Profiles and relationships](profiles.md)
+* [Scenarios](scenarios.md)
+* [Validation and Inferno](testing.md)
+
+## Resources
+
+### CodeSystems
+
+* [Genomic TRF Order Category](CodeSystem-genomic-trf-order-category.md)
+
+### ValueSets
+
+* [Genomic TRF Order Category ValueSet](ValueSet-genomic-trf-order-category.md)
+
+### Resource Profiles
+
+* [Genomic Test Order](StructureDefinition-genomic-test-order.md)
+* [Genomic TRF Questionnaire Response](StructureDefinition-genomic-trf-questionnaire-response.md)
+* [Genomic TRF Specimen](StructureDefinition-genomic-trf-specimen.md)
+* [Genomic TRF Study](StructureDefinition-genomic-trf-study.md)
+
+### Extensions
+
+* [Order Detail Parameter (R6 Pre-adoption)](StructureDefinition-order-detail-parameter.md)
+
+### ImplementationGuides
+
+* [Genomic Test Requisition Form (TRF) Implementation Guide](index.md)
+
+### Examples
+
+* [genomic-test-order-trf-example (Bundle)](Bundle-genomic-test-order-trf-example.md)

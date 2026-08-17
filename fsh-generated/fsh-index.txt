@@ -1,0 +1,8 @@
+Output File                                                  Name                             Type        FSH File         Lines
+CodeSystem-genomic-trf-order-category.json                   GenomicTRFOrderCategoryCS        CodeSystem  genomic-trf.fsh  23 - 32
+StructureDefinition-genomic-test-order.json                  GenomicTestOrder                 Profile     genomic-trf.fsh  43 - 62
+StructureDefinition-genomic-trf-questionnaire-response.json  GenomicTRFQuestionnaireResponse  Profile     genomic-trf.fsh  74 - 81
+StructureDefinition-genomic-trf-specimen.json                GenomicTRFSpecimen               Profile     genomic-trf.fsh  64 - 72
+StructureDefinition-genomic-trf-study.json                   GenomicTRFStudy                  Profile     genomic-trf.fsh  83 - 89
+StructureDefinition-order-detail-parameter.json              OrderDetailParameter             Extension   genomic-trf.fsh  3 - 21
+ValueSet-genomic-trf-order-category.json                     GenomicTRFOrderCategoryVS        ValueSet    genomic-trf.fsh  34 - 41

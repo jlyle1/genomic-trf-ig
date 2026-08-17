@@ -1,0 +1,84 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "genomic-test-order",
+  "url": "https://example.org/fhir/uv/genomic-trf/StructureDefinition/genomic-test-order",
+  "name": "GenomicTestOrder",
+  "title": "Genomic Test Order",
+  "status": "draft",
+  "description": "A ServiceRequest used to authorize one independently actionable genomic testing service.",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "ServiceRequest",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/ServiceRequest",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "ServiceRequest.extension",
+        "path": "ServiceRequest.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        }
+      },
+      {
+        "id": "ServiceRequest.extension:orderDetailParameter",
+        "path": "ServiceRequest.extension",
+        "sliceName": "orderDetailParameter",
+        "short": "Structured order parameters (R6 pre-adoption)",
+        "definition": "Structured key-value parameters for order details such as monitoring cadence, reflex testing options, test design specifications, etc. Pre-adopts R6 ServiceRequest.orderDetail.parameter for R4 compatibility.",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://example.org/fhir/uv/genomic-trf/StructureDefinition/order-detail-parameter"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ServiceRequest.identifier",
+        "path": "ServiceRequest.identifier",
+        "min": 1
+      },
+      {
+        "id": "ServiceRequest.category",
+        "path": "ServiceRequest.category",
+        "min": 1,
+        "binding": {
+          "strength": "required",
+          "valueSet": "https://example.org/fhir/uv/genomic-trf/ValueSet/genomic-trf-order-category"
+        }
+      },
+      {
+        "id": "ServiceRequest.code",
+        "path": "ServiceRequest.code",
+        "min": 1
+      },
+      {
+        "id": "ServiceRequest.requester",
+        "path": "ServiceRequest.requester",
+        "min": 1
+      },
+      {
+        "id": "ServiceRequest.reasonReference",
+        "path": "ServiceRequest.reasonReference",
+        "min": 1
+      },
+      {
+        "id": "ServiceRequest.supportingInfo",
+        "path": "ServiceRequest.supportingInfo",
+        "min": 1
+      }
+    ]
+  }
+}

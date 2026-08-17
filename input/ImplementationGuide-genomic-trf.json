@@ -1,0 +1,29 @@
+{
+  "resourceType": "ImplementationGuide",
+  "id": "genomic-trf",
+  "url": "https://example.org/fhir/uv/genomic-trf/ImplementationGuide/genomic-trf",
+  "version": "0.1.0",
+  "name": "GenomicTRFIG",
+  "title": "Genomic Test Requisition Form (TRF) Implementation Guide",
+  "status": "draft",
+  "experimental": true,
+  "date": "2026-08-14",
+  "publisher": "Example Genomic Interoperability Program",
+  "description": "A cross-vendor FHIR R4 draft model for genomic test requisition forms, including order, specimen, clinical context, consent, and fulfillment workflows.",
+  "packageId": "example.fhir.uv.genomic-trf",
+  "fhirVersion": ["4.0.1"],
+  "definition": {
+    "resource": [
+      { "reference": { "reference": "StructureDefinition/genomic-test-order" }, "name": "GenomicTestOrder", "description": "Profiled genomic test order", "exampleBoolean": false },
+      { "reference": { "reference": "StructureDefinition/genomic-trf-specimen" }, "name": "GenomicTRFSpecimen", "description": "Specimen collected for a genomic order", "exampleBoolean": false },
+      { "reference": { "reference": "StructureDefinition/genomic-trf-questionnaire-response" }, "name": "GenomicTRFQuestionnaireResponse", "description": "Completed test requisition questionnaire", "exampleBoolean": false },
+      { "reference": { "reference": "StructureDefinition/genomic-trf-study" }, "name": "GenomicTRFStudy", "description": "Genomic study created from an order", "exampleBoolean": false },
+      { "reference": { "reference": "Bundle/genomic-test-order-trf-example" }, "name": "Synthetic genomic TRF bundle", "description": "Reference example for scenario testing", "exampleBoolean": true }
+    ],
+    "page": { "nameUrl": "index.html", "title": "Home", "generation": "markdown", "page": [
+      { "nameUrl": "profiles.html", "title": "Profiles and relationships", "generation": "markdown" },
+      { "nameUrl": "scenarios.html", "title": "Scenarios", "generation": "markdown" },
+      { "nameUrl": "testing.html", "title": "Validation and Inferno", "generation": "markdown" }
+    ] }
+  }
+}

@@ -1,0 +1,404 @@
+{
+  "resourceType": "Bundle",
+  "id": "genomic-test-order-trf-example",
+  "type": "collection",
+  "timestamp": "2026-08-14T14:00:00Z",
+  "identifier": {
+    "system": "https://example.org/fhir/NamingSystem/trf-bundle",
+    "value": "TRF-DEMO-0001"
+  },
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:patient-001",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "patient-001",
+        "identifier": [{ "system": "https://example.org/fhir/mrn", "value": "MRN-100045" }],
+        "name": [{ "use": "official", "family": "Rivera", "given": ["Alex"] }],
+        "gender": "female",
+        "birthDate": "1975-04-12",
+        "address": [{ "state": "CA" }]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ordering-practitioner-001",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "ordering-practitioner-001",
+        "identifier": [{ "system": "http://hl7.org/fhir/sid/us-npi", "value": "1111111111" }],
+        "name": [{ "family": "Chen", "given": ["Morgan"], "prefix": ["Dr."] }],
+        "telecom": [{ "system": "phone", "value": "+1-555-0100", "use": "work" }]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:testing-laboratory-001",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "testing-laboratory-001",
+        "name": "Example Molecular Laboratory"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:condition-001",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "condition-001",
+        "clinicalStatus": { "coding": [{ "system": "http://terminology.hl7.org/CodeSystem/condition-clinical", "code": "active" }] },
+        "code": { "text": "Colorectal cancer" },
+        "subject": { "reference": "urn:uuid:patient-001" },
+        "onsetDateTime": "2025-10-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:coverage-001",
+      "resource": {
+        "resourceType": "Coverage",
+        "id": "coverage-001",
+        "status": "active",
+        "beneficiary": { "reference": "urn:uuid:patient-001" },
+        "payor": [{ "display": "Example Health Plan" }],
+        "subscriberId": "MEMBER-123456",
+        "class": [{ "type": { "text": "group" }, "value": "GROUP-001" }]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cancer-stage-observation-001",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "cancer-stage-observation-001",
+        "status": "final",
+        "code": { "text": "Cancer stage at order" },
+        "subject": { "reference": "urn:uuid:patient-001" },
+        "effectiveDateTime": "2026-08-14T14:00:00Z",
+        "valueString": "Stage III"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:pathology-report-001",
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "pathology-report-001",
+        "status": "current",
+        "subject": { "reference": "urn:uuid:patient-001" },
+        "type": { "text": "Pathology report" },
+        "date": "2026-08-14T14:00:00Z",
+        "content": [{
+          "attachment": {
+            "contentType": "application/pdf",
+            "title": "Pathology report - placeholder",
+            "url": "https://example.org/fhir/Binary/pathology-report-001"
+          }
+        }]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:genomic-trf-questionnaire",
+      "resource": {
+        "resourceType": "Questionnaire",
+        "id": "genomic-trf-questionnaire",
+        "url": "https://example.org/fhir/Questionnaire/genomic-trf",
+        "version": "0.1.0",
+        "name": "GenomicTRF",
+        "title": "Genomic Test Requisition Form",
+        "status": "active",
+        "subjectType": ["Patient"],
+        "item": [
+          { "linkId": "test-selection", "text": "Test selection", "type": "group", "item": [
+            { "linkId": "test-name", "text": "Requested test", "type": "string", "required": true },
+            { "linkId": "cadence", "text": "Monitoring cadence", "type": "choice" },
+            { "linkId": "reflex", "text": "Reflex testing requested", "type": "boolean" }
+          ] },
+          { "linkId": "clinical-context", "text": "Clinical context", "type": "group", "item": [
+            { "linkId": "cancer-type", "text": "Cancer type", "type": "string", "required": true },
+            { "linkId": "stage", "text": "Stage", "type": "string" },
+            { "linkId": "treatment", "text": "Current treatment", "type": "text" },
+            { "linkId": "icd10", "text": "ICD-10 code(s)", "type": "string" }
+          ] },
+          { "linkId": "specimen", "text": "Specimen and tissue retrieval", "type": "group", "item": [
+            { "linkId": "specimen-type", "text": "Specimen type", "type": "choice" },
+            { "linkId": "kit-barcode", "text": "Collection kit barcode", "type": "string" },
+            { "linkId": "tissue-accession", "text": "Tissue accession or block number", "type": "string" }
+          ] },
+          { "linkId": "acknowledgment", "text": "Patient acknowledgment", "type": "group", "item": [
+            { "linkId": "patient-acknowledged", "text": "Patient acknowledges test, use, billing, and results disclosure", "type": "boolean", "required": true },
+            { "linkId": "patient-signature-date", "text": "Patient signature date", "type": "date" },
+            { "linkId": "ny-consent", "text": "New York consent confirmed", "type": "boolean" },
+            { "linkId": "research-opt-out", "text": "Optional research use opt-out", "type": "boolean" }
+          ] },
+          { "linkId": "eligibility-and-care-setting", "text": "Eligibility and care setting", "type": "group", "item": [
+            { "linkId": "disease-eligibility", "text": "Disease and treatment eligibility", "type": "text" },
+            { "linkId": "care-setting", "text": "Patient setting at collection", "type": "choice" },
+            { "linkId": "discharge-date", "text": "Discharge date if inpatient", "type": "date" },
+            { "linkId": "allogeneic-transplant", "text": "History of allogeneic marrow or stem-cell transplant", "type": "boolean" },
+            { "linkId": "hematologic-malignancy-or-mds", "text": "History of hematologic malignancy or myelodysplastic syndrome", "type": "boolean" },
+            { "linkId": "concurrent-tissue-and-blood-testing", "text": "Concurrent tissue and blood testing requested", "type": "boolean" },
+            { "linkId": "cdx-indication", "text": "Companion-diagnostic indication", "type": "text" }
+          ] },
+          { "linkId": "tumor-material", "text": "Tumor material and pathology", "type": "group", "item": [
+            { "linkId": "pathology-report-available", "text": "Pathology report attached", "type": "boolean" },
+            { "linkId": "tissue-accession-or-block", "text": "Tumor accession or block identifier", "type": "string" },
+            { "linkId": "histopathology", "text": "Histopathology", "type": "text" },
+            { "linkId": "specimen-retrieval-permission", "text": "Permission for laboratory to request specimen", "type": "boolean" },
+            { "linkId": "tissue-insufficiency-reflex", "text": "Reflex to blood-based test when tissue is insufficient", "type": "boolean" },
+            { "linkId": "blood-collection-method", "text": "Blood collection method", "type": "choice" },
+            { "linkId": "specimen-anatomic-site", "text": "Anatomic site of specimen", "type": "string" }
+          ] },
+          { "linkId": "financial-and-contact-authorization", "text": "Financial and contact authorization", "type": "group", "item": [
+            { "linkId": "prior-authorization-or-referral", "text": "Prior authorization or referral", "type": "string" },
+            { "linkId": "assignment-of-benefits", "text": "Assignment of benefits authorized", "type": "boolean" },
+            { "linkId": "payer-disclosure", "text": "Permission to disclose information for reimbursement", "type": "boolean" },
+            { "linkId": "administrative-sms-consent", "text": "Administrative SMS or email contact permitted", "type": "boolean" },
+            { "linkId": "exclude-incidental-germline-results", "text": "Exclude incidental germline results", "type": "boolean" },
+            { "linkId": "exclude-dpyd-results", "text": "Exclude DPYD results", "type": "boolean" }
+          ] }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:genomic-test-order-001",
+      "resource": {
+        "resourceType": "ServiceRequest",
+        "id": "genomic-test-order-001",
+        "extension": [
+          {
+            "url": "https://example.org/fhir/uv/genomic-trf/StructureDefinition/order-detail-parameter",
+            "extension": [
+              {
+                "url": "code",
+                "valueCodeableConcept": { "text": "Test design source" }
+              },
+              {
+                "url": "value[x]",
+                "valueCodeableConcept": { "text": "Tumor-informed; exome design" }
+              }
+            ]
+          },
+          {
+            "url": "https://example.org/fhir/uv/genomic-trf/StructureDefinition/order-detail-parameter",
+            "extension": [
+              {
+                "url": "code",
+                "valueCodeableConcept": { "text": "Monitoring cadence" }
+              },
+              {
+                "url": "value[x]",
+                "valueCodeableConcept": { "text": "Every 8 weeks" }
+              }
+            ]
+          },
+          {
+            "url": "https://example.org/fhir/uv/genomic-trf/StructureDefinition/order-detail-parameter",
+            "extension": [
+              {
+                "url": "code",
+                "valueCodeableConcept": { "text": "Reflex testing" }
+              },
+              {
+                "url": "value[x]",
+                "valueBoolean": true
+              }
+            ]
+          },
+          {
+            "url": "https://example.org/fhir/uv/genomic-trf/StructureDefinition/order-detail-parameter",
+            "extension": [
+              {
+                "url": "code",
+                "valueCodeableConcept": { "text": "Reflex option" }
+              },
+              {
+                "url": "value[x]",
+                "valueCodeableConcept": { "text": "Tissue-free reflex option" }
+              }
+            ]
+          }
+        ],
+        "identifier": [{
+          "type": {
+            "coding": [{ "system": "http://terminology.hl7.org/CodeSystem/v2-0203", "code": "PLAC", "display": "Placer Identifier" }],
+            "text": "Placer"
+          },
+          "system": "https://example.org/fhir/orders",
+          "value": "GTO-0001"
+        }],
+        "requisition": { "system": "https://example.org/fhir/requisitions", "value": "TRF-0001" },
+        "status": "active",
+        "intent": "original-order",
+        "category": [{ "text": "Genomic testing" }],
+        "priority": "routine",
+        "code": {
+          "coding": [{ "system": "https://example.org/fhir/CodeSystem/genomic-test", "code": "PERSONALIZED-CTDNA-MRD", "display": "Personalized ctDNA molecular residual disease monitoring" }],
+          "text": "Personalized ctDNA molecular residual disease monitoring"
+        },
+        "orderDetail": [
+          { "text": "Test design source: Tumor-informed; exome design" },
+          { "text": "Monitoring cadence: Every 8 weeks" },
+          { "text": "Reflex testing: Yes" },
+          { "text": "Reflex option: Tissue-free reflex option" }
+        ],
+        "subject": { "reference": "urn:uuid:patient-001" },
+        "occurrenceTiming": { "repeat": { "frequency": 1, "period": 8, "periodUnit": "wk" } },
+        "authoredOn": "2026-08-14T14:00:00Z",
+        "requester": { "reference": "urn:uuid:ordering-practitioner-001" },
+        "performer": [{ "reference": "urn:uuid:testing-laboratory-001" }],
+        "reasonReference": [{ "reference": "urn:uuid:condition-001" }],
+        "insurance": [{ "reference": "urn:uuid:coverage-001" }],
+        "supportingInfo": [
+          { "reference": "urn:uuid:cancer-stage-observation-001", "display": "Cancer stage at order" },
+          { "reference": "urn:uuid:pathology-report-001", "display": "Pathology report" }
+        ],
+        "note": [{ "text": "Synthetic example. Map vendor product names to locally governed concepts or codes before production use." }]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:blood-specimen-001",
+      "resource": {
+        "resourceType": "Specimen",
+        "id": "blood-specimen-001",
+        "identifier": [{ "system": "https://example.org/fhir/specimens", "value": "KIT-ABC-123" }],
+        "status": "available",
+        "type": { "text": "Whole blood" },
+        "subject": { "reference": "urn:uuid:patient-001" },
+        "request": [{ "reference": "urn:uuid:genomic-test-order-001" }],
+        "collection": { "collectedDateTime": "2026-08-15T09:30:00-07:00" }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:tumor-specimen-001",
+      "resource": {
+        "resourceType": "Specimen",
+        "id": "tumor-specimen-001",
+        "identifier": [{ "system": "https://example.org/fhir/pathology-accessions", "value": "PATH-2025-0099/A1" }],
+        "status": "available",
+        "type": { "text": "Formalin-fixed paraffin-embedded tumor tissue" },
+        "subject": { "reference": "urn:uuid:patient-001" },
+        "request": [{ "reference": "urn:uuid:genomic-test-order-001" }],
+        "collection": { "collectedDateTime": "2025-10-10" }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:tissue-insufficiency-reflex-order-001",
+      "resource": {
+        "resourceType": "ServiceRequest",
+        "id": "tissue-insufficiency-reflex-order-001",
+        "status": "draft",
+        "intent": "reflex-order",
+        "code": { "text": "Blood-based molecular profiling reflex assay" },
+        "subject": { "reference": "urn:uuid:patient-001" },
+        "basedOn": [{ "reference": "urn:uuid:genomic-test-order-001" }],
+        "requester": { "reference": "urn:uuid:ordering-practitioner-001" },
+        "performer": [{ "reference": "urn:uuid:testing-laboratory-001" }],
+        "reasonReference": [{ "reference": "urn:uuid:condition-001" }],
+        "note": [{ "text": "Activate only when the tumor specimen is insufficient and the documented patient/provider authorization permits the reflex." }]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:genomic-trf-response-001",
+      "resource": {
+        "resourceType": "QuestionnaireResponse",
+        "id": "genomic-trf-response-001",
+        "questionnaire": "https://example.org/fhir/Questionnaire/genomic-trf|0.1.0",
+        "status": "completed",
+        "subject": { "reference": "urn:uuid:patient-001" },
+        "authored": "2026-08-14T14:00:00Z",
+        "author": { "reference": "urn:uuid:ordering-practitioner-001" },
+        "basedOn": [{ "reference": "urn:uuid:genomic-test-order-001" }],
+        "item": [
+          { "linkId": "test-selection", "item": [
+            { "linkId": "test-name", "answer": [{ "valueString": "Personalized ctDNA molecular residual disease monitoring" }] },
+            { "linkId": "cadence", "answer": [{ "valueString": "Every 8 weeks" }] },
+            { "linkId": "reflex", "answer": [{ "valueBoolean": true }] }
+          ] },
+          { "linkId": "clinical-context", "item": [
+            { "linkId": "cancer-type", "answer": [{ "valueString": "Colorectal cancer" }] },
+            { "linkId": "stage", "answer": [{ "valueString": "III" }] },
+            { "linkId": "treatment", "answer": [{ "valueString": "Post-operative surveillance" }] },
+            { "linkId": "icd10", "answer": [{ "valueString": "C18.9" }] }
+          ] },
+          { "linkId": "specimen", "item": [
+            { "linkId": "specimen-type", "answer": [{ "valueString": "Whole blood" }] },
+            { "linkId": "kit-barcode", "answer": [{ "valueString": "KIT-ABC-123" }] },
+            { "linkId": "tissue-accession", "answer": [{ "valueString": "PATH-2025-0099 / A1" }] }
+          ] },
+          { "linkId": "acknowledgment", "item": [
+            { "linkId": "patient-acknowledged", "answer": [{ "valueBoolean": true }] },
+            { "linkId": "patient-signature-date", "answer": [{ "valueDate": "2026-08-14" }] },
+            { "linkId": "ny-consent", "answer": [{ "valueBoolean": false }] },
+            { "linkId": "research-opt-out", "answer": [{ "valueBoolean": false }] }
+          ] },
+          { "linkId": "eligibility-and-care-setting", "item": [
+            { "linkId": "disease-eligibility", "answer": [{ "valueString": "Solid tumor molecular residual disease surveillance" }] },
+            { "linkId": "care-setting", "answer": [{ "valueString": "Non-hospital patient" }] },
+            { "linkId": "allogeneic-transplant", "answer": [{ "valueBoolean": false }] },
+            { "linkId": "hematologic-malignancy-or-mds", "answer": [{ "valueBoolean": false }] },
+            { "linkId": "concurrent-tissue-and-blood-testing", "answer": [{ "valueBoolean": true }] },
+            { "linkId": "cdx-indication", "answer": [{ "valueString": "Solid tumor profiling to inform treatment selection" }] }
+          ] },
+          { "linkId": "tumor-material", "item": [
+            { "linkId": "pathology-report-available", "answer": [{ "valueBoolean": true }] },
+            { "linkId": "tissue-accession-or-block", "answer": [{ "valueString": "PATH-2025-0099/A1" }] },
+            { "linkId": "histopathology", "answer": [{ "valueString": "Colorectal adenocarcinoma" }] },
+            { "linkId": "specimen-retrieval-permission", "answer": [{ "valueBoolean": true }] },
+            { "linkId": "tissue-insufficiency-reflex", "answer": [{ "valueBoolean": true }] },
+            { "linkId": "blood-collection-method", "answer": [{ "valueString": "Venous draw" }] },
+            { "linkId": "specimen-anatomic-site", "answer": [{ "valueString": "Colon" }] }
+          ] },
+          { "linkId": "financial-and-contact-authorization", "item": [
+            { "linkId": "prior-authorization-or-referral", "answer": [{ "valueString": "PA-12345" }] },
+            { "linkId": "assignment-of-benefits", "answer": [{ "valueBoolean": true }] },
+            { "linkId": "payer-disclosure", "answer": [{ "valueBoolean": true }] },
+            { "linkId": "administrative-sms-consent", "answer": [{ "valueBoolean": false }] },
+            { "linkId": "exclude-incidental-germline-results", "answer": [{ "valueBoolean": false }] },
+            { "linkId": "exclude-dpyd-results", "answer": [{ "valueBoolean": false }] }
+          ] }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:testing-consent-001",
+      "resource": {
+        "resourceType": "Consent",
+        "id": "testing-consent-001",
+        "status": "active",
+        "scope": {
+          "coding": [{ "system": "http://terminology.hl7.org/CodeSystem/consentscope", "code": "treatment" }]
+        },
+        "category": [{
+          "coding": [{ "system": "http://loinc.org", "code": "59284-0", "display": "Consent Document" }]
+        }],
+        "patient": { "reference": "urn:uuid:patient-001" },
+        "dateTime": "2026-08-14",
+        "sourceReference": { "reference": "urn:uuid:genomic-trf-response-001" },
+        "policyRule": {
+          "coding": [{ "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode", "code": "INFA" }]
+        },
+        "provision": {
+          "type": "permit"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:genomic-study-001",
+      "resource": {
+        "resourceType": "GenomicStudy",
+        "id": "genomic-study-001",
+        "identifier": [{ "system": "https://example.org/fhir/genomic-studies", "value": "GS-0001" }],
+        "status": "registered",
+        "type": [{ "text": "Somatic sequence variant detection" }],
+        "subject": { "reference": "urn:uuid:patient-001" },
+        "basedOn": [{ "reference": "urn:uuid:genomic-test-order-001" }],
+        "referrer": { "reference": "urn:uuid:ordering-practitioner-001" },
+        "reasonReference": [{ "reference": "urn:uuid:condition-001" }],
+        "analysis": [{
+          "title": "Personalized ctDNA assay analysis",
+          "methodType": [{ "text": "Sequencing-based ctDNA assay" }],
+          "specimen": [
+            { "reference": "urn:uuid:blood-specimen-001" },
+            { "reference": "urn:uuid:tumor-specimen-001" }
+          ],
+          "performer": [{ "actor": { "reference": "urn:uuid:testing-laboratory-001" } }]
+        }]
+      }
+    }
+  ]
+}

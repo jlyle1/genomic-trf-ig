@@ -1,0 +1,24 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "genomic-trf-study",
+  "url": "https://example.org/fhir/uv/genomic-trf/StructureDefinition/genomic-trf-study",
+  "name": "GenomicTRFStudy",
+  "title": "Genomic TRF Study",
+  "status": "draft",
+  "description": "A genomic study initiated to fulfill a genomic test order.",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Procedure",
+  "baseDefinition": "http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/genomic-study",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Procedure.basedOn",
+        "path": "Procedure.basedOn",
+        "min": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "GenomicTRFOrderCategoryVS",
+  "id": "genomic-trf-order-category",
+  "title": "Genomic TRF Order Category ValueSet",
+  "description": "Permitted high-level genomic requisition categories.",
+  "url": "https://example.org/fhir/uv/genomic-trf/ValueSet/genomic-trf-order-category",
+  "experimental": true,
+  "compose": {
+    "include": [
+      {
+        "system": "https://example.org/fhir/uv/genomic-trf/CodeSystem/genomic-trf-order-category"
+      }
+    ]
+  }
+}

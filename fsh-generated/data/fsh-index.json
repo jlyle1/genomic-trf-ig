@@ -1,0 +1,58 @@
+[
+  {
+    "outputFile": "CodeSystem-genomic-trf-order-category.json",
+    "fshName": "GenomicTRFOrderCategoryCS",
+    "fshType": "CodeSystem",
+    "fshFile": "genomic-trf.fsh",
+    "startLine": 23,
+    "endLine": 32
+  },
+  {
+    "outputFile": "StructureDefinition-genomic-test-order.json",
+    "fshName": "GenomicTestOrder",
+    "fshType": "Profile",
+    "fshFile": "genomic-trf.fsh",
+    "startLine": 43,
+    "endLine": 62
+  },
+  {
+    "outputFile": "StructureDefinition-genomic-trf-questionnaire-response.json",
+    "fshName": "GenomicTRFQuestionnaireResponse",
+    "fshType": "Profile",
+    "fshFile": "genomic-trf.fsh",
+    "startLine": 74,
+    "endLine": 81
+  },
+  {
+    "outputFile": "StructureDefinition-genomic-trf-specimen.json",
+    "fshName": "GenomicTRFSpecimen",
+    "fshType": "Profile",
+    "fshFile": "genomic-trf.fsh",
+    "startLine": 64,
+    "endLine": 72
+  },
+  {
+    "outputFile": "StructureDefinition-genomic-trf-study.json",
+    "fshName": "GenomicTRFStudy",
+    "fshType": "Profile",
+    "fshFile": "genomic-trf.fsh",
+    "startLine": 83,
+    "endLine": 89
+  },
+  {
+    "outputFile": "StructureDefinition-order-detail-parameter.json",
+    "fshName": "OrderDetailParameter",
+    "fshType": "Extension",
+    "fshFile": "genomic-trf.fsh",
+    "startLine": 3,
+    "endLine": 21
+  },
+  {
+    "outputFile": "ValueSet-genomic-trf-order-category.json",
+    "fshName": "GenomicTRFOrderCategoryVS",
+    "fshType": "ValueSet",
+    "fshFile": "genomic-trf.fsh",
+    "startLine": 34,
+    "endLine": 41
+  }
+]

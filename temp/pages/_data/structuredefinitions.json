@@ -1,0 +1,157 @@
+{
+  "genomic-test-order" : {
+    "index" : 0,
+    "url" : "https://example.org/fhir/uv/genomic-trf/StructureDefinition/genomic-test-order",
+    "name" : "GenomicTestOrder",
+    "title" : "Genomic Test Order",
+    "uml" : false,
+    "titlelang" : {
+    },
+    "path" : "StructureDefinition-genomic-test-order.html",
+    "kind" : "resource",
+    "type" : "ServiceRequest",
+    "base" : "http://hl7.org/fhir/StructureDefinition/ServiceRequest",
+    "basename" : "ServiceRequest",
+    "basepath" : "http://hl7.org/fhir/R4/servicerequest.html",
+    "adl" : false,
+    "status" : "draft",
+    "date" : "Mon Aug 17 15:01:13 EDT 2026",
+    "abstract" : false,
+    "derivation" : "constraint",
+    "publisher" : "Example Genomic Interoperability Program",
+    "publisherlang" : {
+    },
+    "copyright" : null,
+    "copyrightlang" : {
+    },
+    "description" : "A ServiceRequest used to authorize one independently actionable genomic testing service.",
+    "descriptionlang" : {
+    },
+    "obligations" : false
+  },
+  "genomic-trf-questionnaire-response" : {
+    "index" : 1,
+    "url" : "https://example.org/fhir/uv/genomic-trf/StructureDefinition/genomic-trf-questionnaire-response",
+    "name" : "GenomicTRFQuestionnaireResponse",
+    "title" : "Genomic TRF Questionnaire Response",
+    "uml" : false,
+    "titlelang" : {
+    },
+    "path" : "StructureDefinition-genomic-trf-questionnaire-response.html",
+    "kind" : "resource",
+    "type" : "QuestionnaireResponse",
+    "base" : "http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse",
+    "basename" : "QuestionnaireResponse",
+    "basepath" : "http://hl7.org/fhir/R4/questionnaireresponse.html",
+    "adl" : false,
+    "status" : "draft",
+    "date" : "Mon Aug 17 15:01:13 EDT 2026",
+    "abstract" : false,
+    "derivation" : "constraint",
+    "publisher" : "Example Genomic Interoperability Program",
+    "publisherlang" : {
+    },
+    "copyright" : null,
+    "copyrightlang" : {
+    },
+    "description" : "A completed TRF/AOE response with explicit order provenance.",
+    "descriptionlang" : {
+    },
+    "obligations" : false
+  },
+  "genomic-trf-specimen" : {
+    "index" : 2,
+    "url" : "https://example.org/fhir/uv/genomic-trf/StructureDefinition/genomic-trf-specimen",
+    "name" : "GenomicTRFSpecimen",
+    "title" : "Genomic TRF Specimen",
+    "uml" : false,
+    "titlelang" : {
+    },
+    "path" : "StructureDefinition-genomic-trf-specimen.html",
+    "kind" : "resource",
+    "type" : "Specimen",
+    "base" : "http://hl7.org/fhir/StructureDefinition/Specimen",
+    "basename" : "Specimen",
+    "basepath" : "http://hl7.org/fhir/R4/specimen.html",
+    "adl" : false,
+    "status" : "draft",
+    "date" : "Mon Aug 17 15:01:13 EDT 2026",
+    "abstract" : false,
+    "derivation" : "constraint",
+    "publisher" : "Example Genomic Interoperability Program",
+    "publisherlang" : {
+    },
+    "copyright" : null,
+    "copyrightlang" : {
+    },
+    "description" : "A specimen collected or retrieved to fulfill a genomic test order.",
+    "descriptionlang" : {
+    },
+    "obligations" : false
+  },
+  "genomic-trf-study" : {
+    "index" : 3,
+    "url" : "https://example.org/fhir/uv/genomic-trf/StructureDefinition/genomic-trf-study",
+    "name" : "GenomicTRFStudy",
+    "title" : "Genomic TRF Study",
+    "uml" : false,
+    "titlelang" : {
+    },
+    "path" : "StructureDefinition-genomic-trf-study.html",
+    "kind" : "resource",
+    "type" : "Procedure",
+    "base" : "http://hl7.org/fhir/uv/genomics-reporting/StructureDefinition/genomic-study",
+    "basename" : "GenomicStudy",
+    "basepath" : "http://hl7.org/fhir/uv/genomics-reporting/STU3/StructureDefinition-genomic-study.html",
+    "adl" : false,
+    "status" : "draft",
+    "date" : "Mon Aug 17 15:01:13 EDT 2026",
+    "abstract" : false,
+    "derivation" : "constraint",
+    "publisher" : "Example Genomic Interoperability Program",
+    "publisherlang" : {
+    },
+    "copyright" : null,
+    "copyrightlang" : {
+    },
+    "description" : "A genomic study initiated to fulfill a genomic test order.",
+    "descriptionlang" : {
+    },
+    "obligations" : false
+  },
+  "order-detail-parameter" : {
+    "index" : 4,
+    "url" : "https://example.org/fhir/uv/genomic-trf/StructureDefinition/order-detail-parameter",
+    "name" : "OrderDetailParameter",
+    "title" : "Order Detail Parameter (R6 Pre-adoption)",
+    "uml" : false,
+    "titlelang" : {
+    },
+    "path" : "StructureDefinition-order-detail-parameter.html",
+    "kind" : "complex-type",
+    "type" : "Extension",
+    "base" : "http://hl7.org/fhir/StructureDefinition/Extension",
+    "basename" : "Extension",
+    "basepath" : "http://hl7.org/fhir/R4/extensibility.html#Extension",
+    "adl" : false,
+    "status" : "draft",
+    "date" : "Mon Aug 17 15:01:13 EDT 2026",
+    "abstract" : false,
+    "derivation" : "constraint",
+    "publisher" : "Example Genomic Interoperability Program",
+    "publisherlang" : {
+    },
+    "copyright" : null,
+    "copyrightlang" : {
+    },
+    "description" : "Structured key-value parameters for order details. This extension pre-adopts the R6 ServiceRequest.orderDetail.parameter structure to enable computable order instructions in R4. Each instance represents one parameter with a code and a typed value.",
+    "descriptionlang" : {
+    },
+    "obligations" : false,
+    "contexts" : [{
+      "type" : "Element ID",
+      "expression" : "ServiceRequest"
+    }],
+    "extension-contexts" : ["ServiceRequest"]
+  }
+}

@@ -1,0 +1,2 @@
+URL,Version,Status,OIDs,Name,Title,Description,Uses,Used,Sources
+https://example.org/fhir/uv/genomic-trf/ValueSet/genomic-trf-order-category,0.1.0,draft,,GenomicTRFOrderCategoryVS,Genomic TRF Order Category ValueSet,"Permitted high-level genomic requisition categories.",,"Internal"

@@ -1,0 +1,27 @@
+---
+---
+<!-- get modelType -->
+{% include fragment-modelType.html id='order-detail-parameter' %}
+
+{% include fragment-pagebegin.html %}
+<div style="counter-reset: section 5" class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Publish Box goes here</p><!--EndReleaseHeader-->
+  {% include fragment-profile-navtabs.html type='StructureDefinition' id='order-detail-parameter' active='mapping' %}
+
+<a name="root"> </a>
+<h2 id="root">{{modelType}}: OrderDetailParameter - Mappings</h2>
+{% include fragment-simpletable.html %}
+
+<p>Mappings for the order-detail-parameter {{modelType | downcase }}.</p>
+
+  <!-- insert intro if present -->
+  {% include fragment-intro.html type='StructureDefinition' id='order-detail-parameter' %}
+
+  {%include StructureDefinition-order-detail-parameter-maps.xhtml%}
+
+  <!-- insert notes if present -->
+  {% include fragment-notes.html type='StructureDefinition' id='order-detail-parameter' %}
+
+</div>
+{% assign includetabscripts = 'true' %}
+{% include fragment-pageend.html %}

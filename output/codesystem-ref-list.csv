@@ -1,0 +1,2 @@
+URL,Version,Status,OIDs,Name,Title,Description,Used
+https://example.org/fhir/uv/genomic-trf/CodeSystem/genomic-trf-order-category,0.1.0,draft,,GenomicTRFOrderCategoryCS,Genomic TRF Order Category,"High-level order categories used in the Genomic TRF IG.","ValueSet/genomic-trf-order-category"

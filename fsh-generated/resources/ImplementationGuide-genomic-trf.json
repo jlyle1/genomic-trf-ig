@@ -1,0 +1,137 @@
+{
+  "resourceType": "ImplementationGuide",
+  "id": "genomic-trf",
+  "url": "https://example.org/fhir/uv/genomic-trf/ImplementationGuide/genomic-trf",
+  "version": "0.1.0",
+  "name": "GenomicTRFIG",
+  "title": "Genomic Test Requisition Form (TRF) Implementation Guide",
+  "status": "draft",
+  "publisher": "Example Genomic Interoperability Program",
+  "contact": [
+    {
+      "name": "Example Genomic Interoperability Program",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://example.org"
+        }
+      ]
+    }
+  ],
+  "packageId": "genomic-trf",
+  "fhirVersion": [
+    "4.0.1"
+  ],
+  "dependsOn": [
+    {
+      "packageId": "hl7.fhir.uv.genomics-reporting",
+      "version": "3.0.0",
+      "uri": "http://hl7.org/fhir/uv/genomics-reporting/ImplementationGuide/hl7.fhir.uv.genomics-reporting",
+      "id": "hl7_fhir_uv_genomics_reporting"
+    }
+  ],
+  "definition": {
+    "resource": [
+      {
+        "reference": {
+          "reference": "StructureDefinition/genomic-test-order"
+        },
+        "name": "Genomic Test Order",
+        "description": "A ServiceRequest used to authorize one independently actionable genomic testing service.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/genomic-trf-order-category"
+        },
+        "name": "Genomic TRF Order Category",
+        "description": "High-level order categories used in the Genomic TRF IG.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/genomic-trf-order-category"
+        },
+        "name": "Genomic TRF Order Category ValueSet",
+        "description": "Permitted high-level genomic requisition categories.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/genomic-trf-questionnaire-response"
+        },
+        "name": "Genomic TRF Questionnaire Response",
+        "description": "A completed TRF/AOE response with explicit order provenance.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/genomic-trf-specimen"
+        },
+        "name": "Genomic TRF Specimen",
+        "description": "A specimen collected or retrieved to fulfill a genomic test order.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/genomic-trf-study"
+        },
+        "name": "Genomic TRF Study",
+        "description": "A genomic study initiated to fulfill a genomic test order.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "Bundle/genomic-test-order-trf-example"
+        },
+        "name": "genomic-test-order-trf-example",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/order-detail-parameter"
+        },
+        "name": "Order Detail Parameter (R6 Pre-adoption)",
+        "description": "Structured key-value parameters for order details. This extension pre-adopts the R6 ServiceRequest.orderDetail.parameter structure to enable computable order instructions in R4. Each instance represents one parameter with a code and a typed value.",
+        "exampleBoolean": false
+      }
+    ],
+    "page": {
+      "nameUrl": "toc.html",
+      "title": "Table of Contents",
+      "generation": "html",
+      "page": [
+        {
+          "nameUrl": "index.html",
+          "title": "Home",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "profiles.html",
+          "title": "Profiles and relationships",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "scenarios.html",
+          "title": "Scenarios",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "testing.html",
+          "title": "Validation and Inferno",
+          "generation": "markdown"
+        }
+      ]
+    },
+    "parameter": [
+      {
+        "code": "copyrightyear",
+        "value": "2026+"
+      },
+      {
+        "code": "releaselabel",
+        "value": "Draft"
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+id: genomic-trf
+canonical: https://example.org/fhir/uv/genomic-trf
+name: GenomicTRFIG
+title: Genomic Test Requisition Form (TRF) Implementation Guide
+status: draft
+version: 0.1.0
+fhirVersion: 4.0.1
+copyrightYear: 2026+
+releaseLabel: Draft
+publisher:
+  name: Example Genomic Interoperability Program
+  url: https://example.org
+dependencies:
+  hl7.fhir.uv.genomics-reporting: 3.0.0
+
+pages:
+  index.md:
+    title: Home
+  profiles.md:
+    title: Profiles and relationships
+  scenarios.md:
+    title: Scenarios
+  testing.md:
+    title: Validation and Inferno
+
+menu:
+  Home: index.html
+  Profiles:
+    Genomic Test Order: StructureDefinition-genomic-test-order.html
+    Genomic TRF Specimen: StructureDefinition-genomic-trf-specimen.html
+    Genomic TRF Questionnaire Response: StructureDefinition-genomic-trf-questionnaire-response.html
+    Genomic TRF Study: StructureDefinition-genomic-trf-study.html
+  Terminology:
+    Genomic TRF Order Category: CodeSystem-genomic-trf-order-category.html
+  Scenarios: scenarios.html
+  Testing: testing.html
+  Artifacts: artifacts.html

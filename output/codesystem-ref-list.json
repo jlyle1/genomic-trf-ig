@@ -1,0 +1,13 @@
+{
+  "codeSystems" : [{
+    "url" : "https://example.org/fhir/uv/genomic-trf/CodeSystem/genomic-trf-order-category",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "GenomicTRFOrderCategoryCS",
+    "title" : "Genomic TRF Order Category",
+    "description" : "High-level order categories used in the Genomic TRF IG.",
+    "uses" : {
+    },
+    "ValueSet-genomic-trf-order-category.html" : "Genomic TRF Order Category ValueSet"
+  }]
+}

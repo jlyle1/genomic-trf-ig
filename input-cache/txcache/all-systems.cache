@@ -1,0 +1,962 @@
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "Meta"
+}, "url": "http://hl7.org/fhir/ValueSet/elementdefinition-types", "version": "6.0.0-ballot5", "langs":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"true", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en-US"
+  }]
+}}####
+v: {
+  "display" : "Meta",
+  "code" : "Meta",
+  "system" : "http://hl7.org/fhir/fhir-types",
+  "version" : "6.0.0-ballot5",
+  "server" : "https://tx.fhir.org/r5",
+  "diagnostics" : "0ms tx-op\n1ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Analysing http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5 for validation purposes\n1ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Parameters: disp-lang=en-US, generate-narrative, default-to-latest\n1ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Prepare include[0]: \"(http://hl7.org/fhir/CodeSystem/fhirpath-types)\"\n1ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: CodeSystem found: \"http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-ballot5\"\n1ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Prepare include[1]: \"(^http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5)\"\n1ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Analysing http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5 for validation purposes\n1ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Prepare include[0]: \"(http://hl7.org/fhir/fhir-types)\"\n1ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: CodeSystem found: \"http://hl7.org/fhir/fhir-types|6.0.0-ballot5\"\n1ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Validate \"[undefined#Meta (\"undefined\")]\" and infer system\n1ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Check \"undefined#Meta\"\n1ms start working\n1ms compose #1\n1ms compose #2\n1ms add whole code system\n2ms import value set http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5\n2ms start working\n2ms compose #1\n2ms compose #2\n2ms add whole code system\n3ms finish up\n4ms finish up\n4ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Inferred CodeSystem = \"http://hl7.org/fhir/fhir-types\"\n4ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Include for http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-ballot5 not considered for \"http://hl7.org/fhir/fhir-types\"\n4ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Check included value set http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5\n4ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Check \"http://hl7.org/fhir/fhir-types#Meta\"\n4ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: CodeSystem found: http://hl7.org/fhir/fhir-types|6.0.0-ballot5 for http://hl7.org/fhir/fhir-types|6.0.0-ballot5\n4ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: check code in (http://hl7.org/fhir/fhir-types) at \n4ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Code \"Meta\" found in http://hl7.org/fhir/fhir-types|6.0.0-ballot5",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "uri"
+}, "url": "http://hl7.org/fhir/ValueSet/elementdefinition-types", "version": "6.0.0-ballot5", "langs":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"true", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en-US"
+  }]
+}}####
+v: {
+  "display" : "uri",
+  "code" : "uri",
+  "system" : "http://hl7.org/fhir/fhir-types",
+  "version" : "6.0.0-ballot5",
+  "server" : "https://tx.fhir.org/r5",
+  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Analysing http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Parameters: disp-lang=en-US, generate-narrative, default-to-latest\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Prepare include[0]: \"(http://hl7.org/fhir/CodeSystem/fhirpath-types)\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: CodeSystem found: \"http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-ballot5\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Prepare include[1]: \"(^http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5)\"\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Analysing http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Prepare include[0]: \"(http://hl7.org/fhir/fhir-types)\"\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: CodeSystem found: \"http://hl7.org/fhir/fhir-types|6.0.0-ballot5\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Validate \"[undefined#uri (\"undefined\")]\" and infer system\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Check \"undefined#uri\"\n0ms start working\n0ms compose #1\n0ms compose #2\n0ms add whole code system\n1ms import value set http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5\n1ms start working\n1ms compose #1\n1ms compose #2\n1ms add whole code system\n2ms finish up\n3ms finish up\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Inferred CodeSystem = \"http://hl7.org/fhir/fhir-types\"\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Include for http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-ballot5 not considered for \"http://hl7.org/fhir/fhir-types\"\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Check included value set http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Check \"http://hl7.org/fhir/fhir-types#uri\"\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: CodeSystem found: http://hl7.org/fhir/fhir-types|6.0.0-ballot5 for http://hl7.org/fhir/fhir-types|6.0.0-ballot5\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: check code in (http://hl7.org/fhir/fhir-types) at \n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Code \"uri\" found in http://hl7.org/fhir/fhir-types|6.0.0-ballot5",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "code"
+}, "url": "http://hl7.org/fhir/ValueSet/elementdefinition-types", "version": "6.0.0-ballot5", "langs":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"true", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en-US"
+  }]
+}}####
+v: {
+  "display" : "code",
+  "code" : "code",
+  "system" : "http://hl7.org/fhir/fhir-types",
+  "version" : "6.0.0-ballot5",
+  "server" : "https://tx.fhir.org/r5",
+  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Analysing http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Parameters: disp-lang=en-US, generate-narrative, default-to-latest\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Prepare include[0]: \"(http://hl7.org/fhir/CodeSystem/fhirpath-types)\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: CodeSystem found: \"http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-ballot5\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Prepare include[1]: \"(^http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5)\"\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Analysing http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Prepare include[0]: \"(http://hl7.org/fhir/fhir-types)\"\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: CodeSystem found: \"http://hl7.org/fhir/fhir-types|6.0.0-ballot5\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Validate \"[undefined#code (\"undefined\")]\" and infer system\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Check \"undefined#code\"\n1ms start working\n1ms compose #1\n1ms compose #2\n1ms add whole code system\n1ms import value set http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5\n1ms start working\n1ms compose #1\n1ms compose #2\n1ms add whole code system\n2ms finish up\n3ms finish up\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Inferred CodeSystem = \"http://hl7.org/fhir/fhir-types\"\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Include for http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-ballot5 not considered for \"http://hl7.org/fhir/fhir-types\"\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Check included value set http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Check \"http://hl7.org/fhir/fhir-types#code\"\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: CodeSystem found: http://hl7.org/fhir/fhir-types|6.0.0-ballot5 for http://hl7.org/fhir/fhir-types|6.0.0-ballot5\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: check code in (http://hl7.org/fhir/fhir-types) at \n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Code \"code\" found in http://hl7.org/fhir/fhir-types|6.0.0-ballot5",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "Narrative"
+}, "url": "http://hl7.org/fhir/ValueSet/elementdefinition-types", "version": "6.0.0-ballot5", "langs":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"true", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en-US"
+  }]
+}}####
+v: {
+  "display" : "Narrative",
+  "code" : "Narrative",
+  "system" : "http://hl7.org/fhir/fhir-types",
+  "version" : "6.0.0-ballot5",
+  "server" : "https://tx.fhir.org/r5",
+  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Analysing http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Parameters: disp-lang=en-US, generate-narrative, default-to-latest\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Prepare include[0]: \"(http://hl7.org/fhir/CodeSystem/fhirpath-types)\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: CodeSystem found: \"http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-ballot5\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Prepare include[1]: \"(^http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5)\"\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Analysing http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Prepare include[0]: \"(http://hl7.org/fhir/fhir-types)\"\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: CodeSystem found: \"http://hl7.org/fhir/fhir-types|6.0.0-ballot5\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Validate \"[undefined#Narrative (\"undefined\")]\" and infer system\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Check \"undefined#Narrative\"\n0ms start working\n0ms compose #1\n0ms compose #2\n0ms add whole code system\n0ms import value set http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5\n1ms start working\n1ms compose #1\n1ms compose #2\n1ms add whole code system\n2ms finish up\n3ms finish up\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Inferred CodeSystem = \"http://hl7.org/fhir/fhir-types\"\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Include for http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-ballot5 not considered for \"http://hl7.org/fhir/fhir-types\"\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Check included value set http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Check \"http://hl7.org/fhir/fhir-types#Narrative\"\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: CodeSystem found: http://hl7.org/fhir/fhir-types|6.0.0-ballot5 for http://hl7.org/fhir/fhir-types|6.0.0-ballot5\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: check code in (http://hl7.org/fhir/fhir-types) at \n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Code \"Narrative\" found in http://hl7.org/fhir/fhir-types|6.0.0-ballot5",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "Resource"
+}, "url": "http://hl7.org/fhir/ValueSet/elementdefinition-types", "version": "6.0.0-ballot5", "langs":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"true", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en-US"
+  }]
+}}####
+v: {
+  "display" : "Resource",
+  "code" : "Resource",
+  "system" : "http://hl7.org/fhir/fhir-types",
+  "version" : "6.0.0-ballot5",
+  "server" : "https://tx.fhir.org/r5",
+  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Analysing http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Parameters: disp-lang=en-US, generate-narrative, default-to-latest\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Prepare include[0]: \"(http://hl7.org/fhir/CodeSystem/fhirpath-types)\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: CodeSystem found: \"http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-ballot5\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Prepare include[1]: \"(^http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5)\"\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Analysing http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Prepare include[0]: \"(http://hl7.org/fhir/fhir-types)\"\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: CodeSystem found: \"http://hl7.org/fhir/fhir-types|6.0.0-ballot5\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Validate \"[undefined#Resource (\"undefined\")]\" and infer system\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Check \"undefined#Resource\"\n0ms start working\n0ms compose #1\n1ms compose #2\n1ms add whole code system\n1ms import value set http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5\n1ms start working\n1ms compose #1\n1ms compose #2\n1ms add whole code system\n2ms finish up\n3ms finish up\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Inferred CodeSystem = \"http://hl7.org/fhir/fhir-types\"\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Include for http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-ballot5 not considered for \"http://hl7.org/fhir/fhir-types\"\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Check included value set http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Check \"http://hl7.org/fhir/fhir-types#Resource\"\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: CodeSystem found: http://hl7.org/fhir/fhir-types|6.0.0-ballot5 for http://hl7.org/fhir/fhir-types|6.0.0-ballot5\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: check code in (http://hl7.org/fhir/fhir-types) at \n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Code \"Resource\" found in http://hl7.org/fhir/fhir-types|6.0.0-ballot5",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "Extension"
+}, "url": "http://hl7.org/fhir/ValueSet/elementdefinition-types", "version": "6.0.0-ballot5", "langs":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"true", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en-US"
+  }]
+}}####
+v: {
+  "display" : "Extension",
+  "code" : "Extension",
+  "system" : "http://hl7.org/fhir/fhir-types",
+  "version" : "6.0.0-ballot5",
+  "server" : "https://tx.fhir.org/r5",
+  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Analysing http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Parameters: disp-lang=en-US, generate-narrative, default-to-latest\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Prepare include[0]: \"(http://hl7.org/fhir/CodeSystem/fhirpath-types)\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: CodeSystem found: \"http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-ballot5\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Prepare include[1]: \"(^http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5)\"\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Analysing http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Prepare include[0]: \"(http://hl7.org/fhir/fhir-types)\"\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: CodeSystem found: \"http://hl7.org/fhir/fhir-types|6.0.0-ballot5\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Validate \"[undefined#Extension (\"undefined\")]\" and infer system\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Check \"undefined#Extension\"\n0ms start working\n0ms compose #1\n0ms compose #2\n0ms add whole code system\n0ms import value set http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5\n1ms start working\n1ms compose #1\n1ms compose #2\n1ms add whole code system\n2ms finish up\n3ms finish up\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Inferred CodeSystem = \"http://hl7.org/fhir/fhir-types\"\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Include for http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-ballot5 not considered for \"http://hl7.org/fhir/fhir-types\"\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Check included value set http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Check \"http://hl7.org/fhir/fhir-types#Extension\"\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: CodeSystem found: http://hl7.org/fhir/fhir-types|6.0.0-ballot5 for http://hl7.org/fhir/fhir-types|6.0.0-ballot5\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: check code in (http://hl7.org/fhir/fhir-types) at \n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Code \"Extension\" found in http://hl7.org/fhir/fhir-types|6.0.0-ballot5",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "Identifier"
+}, "url": "http://hl7.org/fhir/ValueSet/elementdefinition-types", "version": "6.0.0-ballot5", "langs":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"true", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en-US"
+  }]
+}}####
+v: {
+  "display" : "Identifier",
+  "code" : "Identifier",
+  "system" : "http://hl7.org/fhir/fhir-types",
+  "version" : "6.0.0-ballot5",
+  "server" : "https://tx.fhir.org/r5",
+  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Analysing http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Parameters: disp-lang=en-US, generate-narrative, default-to-latest\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Prepare include[0]: \"(http://hl7.org/fhir/CodeSystem/fhirpath-types)\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: CodeSystem found: \"http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-ballot5\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Prepare include[1]: \"(^http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5)\"\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Analysing http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Prepare include[0]: \"(http://hl7.org/fhir/fhir-types)\"\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: CodeSystem found: \"http://hl7.org/fhir/fhir-types|6.0.0-ballot5\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Validate \"[undefined#Identifier (\"undefined\")]\" and infer system\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Check \"undefined#Identifier\"\n0ms start working\n0ms compose #1\n0ms compose #2\n0ms add whole code system\n0ms import value set http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5\n0ms start working\n0ms compose #1\n1ms compose #2\n1ms add whole code system\n2ms finish up\n3ms finish up\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Inferred CodeSystem = \"http://hl7.org/fhir/fhir-types\"\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Include for http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-ballot5 not considered for \"http://hl7.org/fhir/fhir-types\"\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Check included value set http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Check \"http://hl7.org/fhir/fhir-types#Identifier\"\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: CodeSystem found: http://hl7.org/fhir/fhir-types|6.0.0-ballot5 for http://hl7.org/fhir/fhir-types|6.0.0-ballot5\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: check code in (http://hl7.org/fhir/fhir-types) at \n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Code \"Identifier\" found in http://hl7.org/fhir/fhir-types|6.0.0-ballot5",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "Reference"
+}, "url": "http://hl7.org/fhir/ValueSet/elementdefinition-types", "version": "6.0.0-ballot5", "langs":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"true", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en-US"
+  }]
+}}####
+v: {
+  "display" : "Reference",
+  "code" : "Reference",
+  "system" : "http://hl7.org/fhir/fhir-types",
+  "version" : "6.0.0-ballot5",
+  "server" : "https://tx.fhir.org/r5",
+  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Analysing http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Parameters: disp-lang=en-US, generate-narrative, default-to-latest\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Prepare include[0]: \"(http://hl7.org/fhir/CodeSystem/fhirpath-types)\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: CodeSystem found: \"http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-ballot5\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Prepare include[1]: \"(^http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5)\"\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Analysing http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Prepare include[0]: \"(http://hl7.org/fhir/fhir-types)\"\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: CodeSystem found: \"http://hl7.org/fhir/fhir-types|6.0.0-ballot5\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Validate \"[undefined#Reference (\"undefined\")]\" and infer system\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Check \"undefined#Reference\"\n0ms start working\n0ms compose #1\n0ms compose #2\n0ms add whole code system\n1ms import value set http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5\n1ms start working\n1ms compose #1\n1ms compose #2\n1ms add whole code system\n2ms finish up\n3ms finish up\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Inferred CodeSystem = \"http://hl7.org/fhir/fhir-types\"\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Include for http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-ballot5 not considered for \"http://hl7.org/fhir/fhir-types\"\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Check included value set http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Check \"http://hl7.org/fhir/fhir-types#Reference\"\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: CodeSystem found: http://hl7.org/fhir/fhir-types|6.0.0-ballot5 for http://hl7.org/fhir/fhir-types|6.0.0-ballot5\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: check code in (http://hl7.org/fhir/fhir-types) at \n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Code \"Reference\" found in http://hl7.org/fhir/fhir-types|6.0.0-ballot5",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "CodeableConcept"
+}, "url": "http://hl7.org/fhir/ValueSet/elementdefinition-types", "version": "6.0.0-ballot5", "langs":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"true", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en-US"
+  }]
+}}####
+v: {
+  "display" : "CodeableConcept",
+  "code" : "CodeableConcept",
+  "system" : "http://hl7.org/fhir/fhir-types",
+  "version" : "6.0.0-ballot5",
+  "server" : "https://tx.fhir.org/r5",
+  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Analysing http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Parameters: disp-lang=en-US, generate-narrative, default-to-latest\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Prepare include[0]: \"(http://hl7.org/fhir/CodeSystem/fhirpath-types)\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: CodeSystem found: \"http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-ballot5\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Prepare include[1]: \"(^http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5)\"\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Analysing http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Prepare include[0]: \"(http://hl7.org/fhir/fhir-types)\"\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: CodeSystem found: \"http://hl7.org/fhir/fhir-types|6.0.0-ballot5\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Validate \"[undefined#CodeableConcept (\"undefined\")]\" and infer system\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Check \"undefined#CodeableConcept\"\n0ms start working\n0ms compose #1\n0ms compose #2\n0ms add whole code system\n0ms import value set http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5\n0ms start working\n0ms compose #1\n1ms compose #2\n1ms add whole code system\n2ms finish up\n3ms finish up\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Inferred CodeSystem = \"http://hl7.org/fhir/fhir-types\"\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Include for http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-ballot5 not considered for \"http://hl7.org/fhir/fhir-types\"\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Check included value set http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Check \"http://hl7.org/fhir/fhir-types#CodeableConcept\"\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: CodeSystem found: http://hl7.org/fhir/fhir-types|6.0.0-ballot5 for http://hl7.org/fhir/fhir-types|6.0.0-ballot5\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: check code in (http://hl7.org/fhir/fhir-types) at \n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Code \"CodeableConcept\" found in http://hl7.org/fhir/fhir-types|6.0.0-ballot5",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "boolean"
+}, "url": "http://hl7.org/fhir/ValueSet/elementdefinition-types", "version": "6.0.0-ballot5", "langs":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"true", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en-US"
+  }]
+}}####
+v: {
+  "display" : "boolean",
+  "code" : "boolean",
+  "system" : "http://hl7.org/fhir/fhir-types",
+  "version" : "6.0.0-ballot5",
+  "server" : "https://tx.fhir.org/r5",
+  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Analysing http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Parameters: disp-lang=en-US, generate-narrative, default-to-latest\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Prepare include[0]: \"(http://hl7.org/fhir/CodeSystem/fhirpath-types)\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: CodeSystem found: \"http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-ballot5\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Prepare include[1]: \"(^http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5)\"\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Analysing http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Prepare include[0]: \"(http://hl7.org/fhir/fhir-types)\"\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: CodeSystem found: \"http://hl7.org/fhir/fhir-types|6.0.0-ballot5\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Validate \"[undefined#boolean (\"undefined\")]\" and infer system\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Check \"undefined#boolean\"\n0ms start working\n0ms compose #1\n0ms compose #2\n0ms add whole code system\n1ms import value set http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5\n1ms start working\n1ms compose #1\n1ms compose #2\n1ms add whole code system\n2ms finish up\n3ms finish up\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Inferred CodeSystem = \"http://hl7.org/fhir/fhir-types\"\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Include for http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-ballot5 not considered for \"http://hl7.org/fhir/fhir-types\"\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Check included value set http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Check \"http://hl7.org/fhir/fhir-types#boolean\"\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: CodeSystem found: http://hl7.org/fhir/fhir-types|6.0.0-ballot5 for http://hl7.org/fhir/fhir-types|6.0.0-ballot5\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: check code in (http://hl7.org/fhir/fhir-types) at \n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Code \"boolean\" found in http://hl7.org/fhir/fhir-types|6.0.0-ballot5",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "CodeableReference"
+}, "url": "http://hl7.org/fhir/ValueSet/elementdefinition-types", "version": "6.0.0-ballot5", "langs":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"true", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en-US"
+  }]
+}}####
+v: {
+  "display" : "CodeableReference",
+  "code" : "CodeableReference",
+  "system" : "http://hl7.org/fhir/fhir-types",
+  "version" : "6.0.0-ballot5",
+  "server" : "https://tx.fhir.org/r5",
+  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Analysing http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Parameters: disp-lang=en-US, generate-narrative, default-to-latest\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Prepare include[0]: \"(http://hl7.org/fhir/CodeSystem/fhirpath-types)\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: CodeSystem found: \"http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-ballot5\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Prepare include[1]: \"(^http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5)\"\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Analysing http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Prepare include[0]: \"(http://hl7.org/fhir/fhir-types)\"\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: CodeSystem found: \"http://hl7.org/fhir/fhir-types|6.0.0-ballot5\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Validate \"[undefined#CodeableReference (\"undefined\")]\" and infer system\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Check \"undefined#CodeableReference\"\n0ms start working\n0ms compose #1\n0ms compose #2\n0ms add whole code system\n1ms import value set http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5\n1ms start working\n1ms compose #1\n1ms compose #2\n1ms add whole code system\n2ms finish up\n3ms finish up\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Inferred CodeSystem = \"http://hl7.org/fhir/fhir-types\"\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Include for http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-ballot5 not considered for \"http://hl7.org/fhir/fhir-types\"\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Check included value set http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Check \"http://hl7.org/fhir/fhir-types#CodeableReference\"\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: CodeSystem found: http://hl7.org/fhir/fhir-types|6.0.0-ballot5 for http://hl7.org/fhir/fhir-types|6.0.0-ballot5\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: check code in (http://hl7.org/fhir/fhir-types) at \n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Code \"CodeableReference\" found in http://hl7.org/fhir/fhir-types|6.0.0-ballot5",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "BackboneElement"
+}, "url": "http://hl7.org/fhir/ValueSet/elementdefinition-types", "version": "6.0.0-ballot5", "langs":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"true", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en-US"
+  }]
+}}####
+v: {
+  "display" : "BackboneElement",
+  "code" : "BackboneElement",
+  "system" : "http://hl7.org/fhir/fhir-types",
+  "version" : "6.0.0-ballot5",
+  "server" : "https://tx.fhir.org/r5",
+  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Analysing http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Parameters: disp-lang=en-US, generate-narrative, default-to-latest\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Prepare include[0]: \"(http://hl7.org/fhir/CodeSystem/fhirpath-types)\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: CodeSystem found: \"http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-ballot5\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Prepare include[1]: \"(^http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5)\"\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Analysing http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Prepare include[0]: \"(http://hl7.org/fhir/fhir-types)\"\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: CodeSystem found: \"http://hl7.org/fhir/fhir-types|6.0.0-ballot5\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Validate \"[undefined#BackboneElement (\"undefined\")]\" and infer system\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Check \"undefined#BackboneElement\"\n0ms start working\n0ms compose #1\n0ms compose #2\n0ms add whole code system\n0ms import value set http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5\n0ms start working\n0ms compose #1\n1ms compose #2\n1ms add whole code system\n2ms finish up\n3ms finish up\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Inferred CodeSystem = \"http://hl7.org/fhir/fhir-types\"\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Include for http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-ballot5 not considered for \"http://hl7.org/fhir/fhir-types\"\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Check included value set http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Check \"http://hl7.org/fhir/fhir-types#BackboneElement\"\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: CodeSystem found: http://hl7.org/fhir/fhir-types|6.0.0-ballot5 for http://hl7.org/fhir/fhir-types|6.0.0-ballot5\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: check code in (http://hl7.org/fhir/fhir-types) at \n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Code \"BackboneElement\" found in http://hl7.org/fhir/fhir-types|6.0.0-ballot5",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "canonical"
+}, "url": "http://hl7.org/fhir/ValueSet/elementdefinition-types", "version": "6.0.0-ballot5", "langs":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"true", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en-US"
+  }]
+}}####
+v: {
+  "display" : "canonical",
+  "code" : "canonical",
+  "system" : "http://hl7.org/fhir/fhir-types",
+  "version" : "6.0.0-ballot5",
+  "server" : "https://tx.fhir.org/r5",
+  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Analysing http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Parameters: disp-lang=en-US, generate-narrative, default-to-latest\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Prepare include[0]: \"(http://hl7.org/fhir/CodeSystem/fhirpath-types)\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: CodeSystem found: \"http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-ballot5\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Prepare include[1]: \"(^http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5)\"\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Analysing http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Prepare include[0]: \"(http://hl7.org/fhir/fhir-types)\"\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: CodeSystem found: \"http://hl7.org/fhir/fhir-types|6.0.0-ballot5\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Validate \"[undefined#canonical (\"undefined\")]\" and infer system\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Check \"undefined#canonical\"\n0ms start working\n0ms compose #1\n0ms compose #2\n0ms add whole code system\n0ms import value set http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5\n0ms start working\n0ms compose #1\n0ms compose #2\n1ms add whole code system\n1ms finish up\n3ms finish up\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Inferred CodeSystem = \"http://hl7.org/fhir/fhir-types\"\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Include for http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-ballot5 not considered for \"http://hl7.org/fhir/fhir-types\"\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Check included value set http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Check \"http://hl7.org/fhir/fhir-types#canonical\"\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: CodeSystem found: http://hl7.org/fhir/fhir-types|6.0.0-ballot5 for http://hl7.org/fhir/fhir-types|6.0.0-ballot5\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: check code in (http://hl7.org/fhir/fhir-types) at \n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Code \"canonical\" found in http://hl7.org/fhir/fhir-types|6.0.0-ballot5",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "Quantity"
+}, "url": "http://hl7.org/fhir/ValueSet/elementdefinition-types", "version": "6.0.0-ballot5", "langs":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"true", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en-US"
+  }]
+}}####
+v: {
+  "display" : "Quantity",
+  "code" : "Quantity",
+  "system" : "http://hl7.org/fhir/fhir-types",
+  "version" : "6.0.0-ballot5",
+  "server" : "https://tx.fhir.org/r5",
+  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Analysing http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Parameters: disp-lang=en-US, generate-narrative, default-to-latest\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Prepare include[0]: \"(http://hl7.org/fhir/CodeSystem/fhirpath-types)\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: CodeSystem found: \"http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-ballot5\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Prepare include[1]: \"(^http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5)\"\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Analysing http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Prepare include[0]: \"(http://hl7.org/fhir/fhir-types)\"\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: CodeSystem found: \"http://hl7.org/fhir/fhir-types|6.0.0-ballot5\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Validate \"[undefined#Quantity (\"undefined\")]\" and infer system\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Check \"undefined#Quantity\"\n0ms start working\n0ms compose #1\n0ms compose #2\n0ms add whole code system\n0ms import value set http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5\n0ms start working\n0ms compose #1\n1ms compose #2\n1ms add whole code system\n2ms finish up\n3ms finish up\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Inferred CodeSystem = \"http://hl7.org/fhir/fhir-types\"\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Include for http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-ballot5 not considered for \"http://hl7.org/fhir/fhir-types\"\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Check included value set http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Check \"http://hl7.org/fhir/fhir-types#Quantity\"\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: CodeSystem found: http://hl7.org/fhir/fhir-types|6.0.0-ballot5 for http://hl7.org/fhir/fhir-types|6.0.0-ballot5\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: check code in (http://hl7.org/fhir/fhir-types) at \n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Code \"Quantity\" found in http://hl7.org/fhir/fhir-types|6.0.0-ballot5",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "Ratio"
+}, "url": "http://hl7.org/fhir/ValueSet/elementdefinition-types", "version": "6.0.0-ballot5", "langs":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"true", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en-US"
+  }]
+}}####
+v: {
+  "display" : "Ratio",
+  "code" : "Ratio",
+  "system" : "http://hl7.org/fhir/fhir-types",
+  "version" : "6.0.0-ballot5",
+  "server" : "https://tx.fhir.org/r5",
+  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Analysing http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Parameters: disp-lang=en-US, generate-narrative, default-to-latest\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Prepare include[0]: \"(http://hl7.org/fhir/CodeSystem/fhirpath-types)\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: CodeSystem found: \"http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-ballot5\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Prepare include[1]: \"(^http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5)\"\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Analysing http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Prepare include[0]: \"(http://hl7.org/fhir/fhir-types)\"\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: CodeSystem found: \"http://hl7.org/fhir/fhir-types|6.0.0-ballot5\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Validate \"[undefined#Ratio (\"undefined\")]\" and infer system\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Check \"undefined#Ratio\"\n0ms start working\n0ms compose #1\n0ms compose #2\n0ms add whole code system\n0ms import value set http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5\n0ms start working\n0ms compose #1\n1ms compose #2\n1ms add whole code system\n2ms finish up\n3ms finish up\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Inferred CodeSystem = \"http://hl7.org/fhir/fhir-types\"\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Include for http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-ballot5 not considered for \"http://hl7.org/fhir/fhir-types\"\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Check included value set http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Check \"http://hl7.org/fhir/fhir-types#Ratio\"\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: CodeSystem found: http://hl7.org/fhir/fhir-types|6.0.0-ballot5 for http://hl7.org/fhir/fhir-types|6.0.0-ballot5\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: check code in (http://hl7.org/fhir/fhir-types) at \n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Code \"Ratio\" found in http://hl7.org/fhir/fhir-types|6.0.0-ballot5",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "Range"
+}, "url": "http://hl7.org/fhir/ValueSet/elementdefinition-types", "version": "6.0.0-ballot5", "langs":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"true", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en-US"
+  }]
+}}####
+v: {
+  "display" : "Range",
+  "code" : "Range",
+  "system" : "http://hl7.org/fhir/fhir-types",
+  "version" : "6.0.0-ballot5",
+  "server" : "https://tx.fhir.org/r5",
+  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Analysing http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Parameters: disp-lang=en-US, generate-narrative, default-to-latest\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Prepare include[0]: \"(http://hl7.org/fhir/CodeSystem/fhirpath-types)\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: CodeSystem found: \"http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-ballot5\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Prepare include[1]: \"(^http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5)\"\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Analysing http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Prepare include[0]: \"(http://hl7.org/fhir/fhir-types)\"\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: CodeSystem found: \"http://hl7.org/fhir/fhir-types|6.0.0-ballot5\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Validate \"[undefined#Range (\"undefined\")]\" and infer system\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Check \"undefined#Range\"\n0ms start working\n0ms compose #1\n0ms compose #2\n0ms add whole code system\n0ms import value set http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5\n0ms start working\n0ms compose #1\n1ms compose #2\n1ms add whole code system\n1ms finish up\n3ms finish up\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Inferred CodeSystem = \"http://hl7.org/fhir/fhir-types\"\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Include for http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-ballot5 not considered for \"http://hl7.org/fhir/fhir-types\"\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Check included value set http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Check \"http://hl7.org/fhir/fhir-types#Range\"\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: CodeSystem found: http://hl7.org/fhir/fhir-types|6.0.0-ballot5 for http://hl7.org/fhir/fhir-types|6.0.0-ballot5\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: check code in (http://hl7.org/fhir/fhir-types) at \n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Code \"Range\" found in http://hl7.org/fhir/fhir-types|6.0.0-ballot5",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "string"
+}, "url": "http://hl7.org/fhir/ValueSet/elementdefinition-types", "version": "6.0.0-ballot5", "langs":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"true", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en-US"
+  }]
+}}####
+v: {
+  "display" : "string",
+  "code" : "string",
+  "system" : "http://hl7.org/fhir/fhir-types",
+  "version" : "6.0.0-ballot5",
+  "server" : "https://tx.fhir.org/r5",
+  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Analysing http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Parameters: disp-lang=en-US, generate-narrative, default-to-latest\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Prepare include[0]: \"(http://hl7.org/fhir/CodeSystem/fhirpath-types)\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: CodeSystem found: \"http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-ballot5\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Prepare include[1]: \"(^http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5)\"\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Analysing http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Prepare include[0]: \"(http://hl7.org/fhir/fhir-types)\"\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: CodeSystem found: \"http://hl7.org/fhir/fhir-types|6.0.0-ballot5\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Validate \"[undefined#string (\"undefined\")]\" and infer system\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Check \"undefined#string\"\n0ms start working\n0ms compose #1\n0ms compose #2\n0ms add whole code system\n1ms import value set http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5\n1ms start working\n1ms compose #1\n1ms compose #2\n1ms add whole code system\n2ms finish up\n3ms finish up\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Inferred CodeSystem = \"http://hl7.org/fhir/fhir-types\"\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Include for http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-ballot5 not considered for \"http://hl7.org/fhir/fhir-types\"\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Check included value set http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Check \"http://hl7.org/fhir/fhir-types#string\"\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: CodeSystem found: http://hl7.org/fhir/fhir-types|6.0.0-ballot5 for http://hl7.org/fhir/fhir-types|6.0.0-ballot5\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: check code in (http://hl7.org/fhir/fhir-types) at \n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Code \"string\" found in http://hl7.org/fhir/fhir-types|6.0.0-ballot5",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "Period"
+}, "url": "http://hl7.org/fhir/ValueSet/elementdefinition-types", "version": "6.0.0-ballot5", "langs":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"true", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en-US"
+  }]
+}}####
+v: {
+  "display" : "Period",
+  "code" : "Period",
+  "system" : "http://hl7.org/fhir/fhir-types",
+  "version" : "6.0.0-ballot5",
+  "server" : "https://tx.fhir.org/r5",
+  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Analysing http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Parameters: disp-lang=en-US, generate-narrative, default-to-latest\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Prepare include[0]: \"(http://hl7.org/fhir/CodeSystem/fhirpath-types)\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: CodeSystem found: \"http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-ballot5\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Prepare include[1]: \"(^http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5)\"\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Analysing http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Prepare include[0]: \"(http://hl7.org/fhir/fhir-types)\"\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: CodeSystem found: \"http://hl7.org/fhir/fhir-types|6.0.0-ballot5\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Validate \"[undefined#Period (\"undefined\")]\" and infer system\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Check \"undefined#Period\"\n0ms start working\n0ms compose #1\n0ms compose #2\n0ms add whole code system\n0ms import value set http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5\n0ms start working\n0ms compose #1\n0ms compose #2\n1ms add whole code system\n1ms finish up\n3ms finish up\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Inferred CodeSystem = \"http://hl7.org/fhir/fhir-types\"\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Include for http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-ballot5 not considered for \"http://hl7.org/fhir/fhir-types\"\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Check included value set http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Check \"http://hl7.org/fhir/fhir-types#Period\"\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: CodeSystem found: http://hl7.org/fhir/fhir-types|6.0.0-ballot5 for http://hl7.org/fhir/fhir-types|6.0.0-ballot5\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: check code in (http://hl7.org/fhir/fhir-types) at \n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Code \"Period\" found in http://hl7.org/fhir/fhir-types|6.0.0-ballot5",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "dateTime"
+}, "url": "http://hl7.org/fhir/ValueSet/elementdefinition-types", "version": "6.0.0-ballot5", "langs":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"true", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en-US"
+  }]
+}}####
+v: {
+  "display" : "dateTime",
+  "code" : "dateTime",
+  "system" : "http://hl7.org/fhir/fhir-types",
+  "version" : "6.0.0-ballot5",
+  "server" : "https://tx.fhir.org/r5",
+  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Analysing http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Parameters: disp-lang=en-US, generate-narrative, default-to-latest\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Prepare include[0]: \"(http://hl7.org/fhir/CodeSystem/fhirpath-types)\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: CodeSystem found: \"http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-ballot5\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Prepare include[1]: \"(^http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5)\"\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Analysing http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Prepare include[0]: \"(http://hl7.org/fhir/fhir-types)\"\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: CodeSystem found: \"http://hl7.org/fhir/fhir-types|6.0.0-ballot5\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Validate \"[undefined#dateTime (\"undefined\")]\" and infer system\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Check \"undefined#dateTime\"\n0ms start working\n0ms compose #1\n0ms compose #2\n0ms add whole code system\n1ms import value set http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5\n1ms start working\n1ms compose #1\n1ms compose #2\n1ms add whole code system\n2ms finish up\n3ms finish up\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Inferred CodeSystem = \"http://hl7.org/fhir/fhir-types\"\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Include for http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-ballot5 not considered for \"http://hl7.org/fhir/fhir-types\"\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Check included value set http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Check \"http://hl7.org/fhir/fhir-types#dateTime\"\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: CodeSystem found: http://hl7.org/fhir/fhir-types|6.0.0-ballot5 for http://hl7.org/fhir/fhir-types|6.0.0-ballot5\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: check code in (http://hl7.org/fhir/fhir-types) at \n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Code \"dateTime\" found in http://hl7.org/fhir/fhir-types|6.0.0-ballot5",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "Timing"
+}, "url": "http://hl7.org/fhir/ValueSet/elementdefinition-types", "version": "6.0.0-ballot5", "langs":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"true", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en-US"
+  }]
+}}####
+v: {
+  "display" : "Timing",
+  "code" : "Timing",
+  "system" : "http://hl7.org/fhir/fhir-types",
+  "version" : "6.0.0-ballot5",
+  "server" : "https://tx.fhir.org/r5",
+  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Analysing http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Parameters: disp-lang=en-US, generate-narrative, default-to-latest\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Prepare include[0]: \"(http://hl7.org/fhir/CodeSystem/fhirpath-types)\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: CodeSystem found: \"http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-ballot5\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Prepare include[1]: \"(^http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5)\"\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Analysing http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Prepare include[0]: \"(http://hl7.org/fhir/fhir-types)\"\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: CodeSystem found: \"http://hl7.org/fhir/fhir-types|6.0.0-ballot5\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Validate \"[undefined#Timing (\"undefined\")]\" and infer system\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Check \"undefined#Timing\"\n0ms start working\n0ms compose #1\n0ms compose #2\n0ms add whole code system\n1ms import value set http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5\n1ms start working\n1ms compose #1\n1ms compose #2\n1ms add whole code system\n2ms finish up\n3ms finish up\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Inferred CodeSystem = \"http://hl7.org/fhir/fhir-types\"\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Include for http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-ballot5 not considered for \"http://hl7.org/fhir/fhir-types\"\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Check included value set http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Check \"http://hl7.org/fhir/fhir-types#Timing\"\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: CodeSystem found: http://hl7.org/fhir/fhir-types|6.0.0-ballot5 for http://hl7.org/fhir/fhir-types|6.0.0-ballot5\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: check code in (http://hl7.org/fhir/fhir-types) at \n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Code \"Timing\" found in http://hl7.org/fhir/fhir-types|6.0.0-ballot5",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "Annotation"
+}, "url": "http://hl7.org/fhir/ValueSet/elementdefinition-types", "version": "6.0.0-ballot5", "langs":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"true", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en-US"
+  }]
+}}####
+v: {
+  "display" : "Annotation",
+  "code" : "Annotation",
+  "system" : "http://hl7.org/fhir/fhir-types",
+  "version" : "6.0.0-ballot5",
+  "server" : "https://tx.fhir.org/r5",
+  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Analysing http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Parameters: disp-lang=en-US, generate-narrative, default-to-latest\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Prepare include[0]: \"(http://hl7.org/fhir/CodeSystem/fhirpath-types)\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: CodeSystem found: \"http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-ballot5\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Prepare include[1]: \"(^http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5)\"\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Analysing http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Prepare include[0]: \"(http://hl7.org/fhir/fhir-types)\"\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: CodeSystem found: \"http://hl7.org/fhir/fhir-types|6.0.0-ballot5\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Validate \"[undefined#Annotation (\"undefined\")]\" and infer system\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Check \"undefined#Annotation\"\n1ms start working\n1ms compose #1\n1ms compose #2\n1ms add whole code system\n1ms import value set http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5\n1ms start working\n1ms compose #1\n1ms compose #2\n1ms add whole code system\n2ms finish up\n3ms finish up\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Inferred CodeSystem = \"http://hl7.org/fhir/fhir-types\"\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Include for http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-ballot5 not considered for \"http://hl7.org/fhir/fhir-types\"\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Check included value set http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Check \"http://hl7.org/fhir/fhir-types#Annotation\"\n4ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: CodeSystem found: http://hl7.org/fhir/fhir-types|6.0.0-ballot5 for http://hl7.org/fhir/fhir-types|6.0.0-ballot5\n4ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: check code in (http://hl7.org/fhir/fhir-types) at \n4ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Code \"Annotation\" found in http://hl7.org/fhir/fhir-types|6.0.0-ballot5",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "markdown"
+}, "url": "http://hl7.org/fhir/ValueSet/elementdefinition-types", "version": "6.0.0-ballot5", "langs":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"true", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en-US"
+  }]
+}}####
+v: {
+  "display" : "markdown",
+  "code" : "markdown",
+  "system" : "http://hl7.org/fhir/fhir-types",
+  "version" : "6.0.0-ballot5",
+  "server" : "https://tx.fhir.org/r5",
+  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Analysing http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Parameters: disp-lang=en-US, generate-narrative, default-to-latest\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Prepare include[0]: \"(http://hl7.org/fhir/CodeSystem/fhirpath-types)\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: CodeSystem found: \"http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-ballot5\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Prepare include[1]: \"(^http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5)\"\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Analysing http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Prepare include[0]: \"(http://hl7.org/fhir/fhir-types)\"\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: CodeSystem found: \"http://hl7.org/fhir/fhir-types|6.0.0-ballot5\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Validate \"[undefined#markdown (\"undefined\")]\" and infer system\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Check \"undefined#markdown\"\n0ms start working\n0ms compose #1\n0ms compose #2\n0ms add whole code system\n1ms import value set http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5\n1ms start working\n1ms compose #1\n1ms compose #2\n1ms add whole code system\n2ms finish up\n3ms finish up\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Inferred CodeSystem = \"http://hl7.org/fhir/fhir-types\"\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Include for http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-ballot5 not considered for \"http://hl7.org/fhir/fhir-types\"\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Check included value set http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Check \"http://hl7.org/fhir/fhir-types#markdown\"\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: CodeSystem found: http://hl7.org/fhir/fhir-types|6.0.0-ballot5 for http://hl7.org/fhir/fhir-types|6.0.0-ballot5\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: check code in (http://hl7.org/fhir/fhir-types) at \n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Code \"markdown\" found in http://hl7.org/fhir/fhir-types|6.0.0-ballot5",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "decimal"
+}, "url": "http://hl7.org/fhir/ValueSet/elementdefinition-types", "version": "6.0.0-ballot5", "langs":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"true", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en-US"
+  }]
+}}####
+v: {
+  "display" : "decimal",
+  "code" : "decimal",
+  "system" : "http://hl7.org/fhir/fhir-types",
+  "version" : "6.0.0-ballot5",
+  "server" : "https://tx.fhir.org/r5",
+  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Analysing http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Parameters: disp-lang=en-US, generate-narrative, default-to-latest\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Prepare include[0]: \"(http://hl7.org/fhir/CodeSystem/fhirpath-types)\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: CodeSystem found: \"http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-ballot5\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Prepare include[1]: \"(^http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5)\"\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Analysing http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Prepare include[0]: \"(http://hl7.org/fhir/fhir-types)\"\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: CodeSystem found: \"http://hl7.org/fhir/fhir-types|6.0.0-ballot5\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Validate \"[undefined#decimal (\"undefined\")]\" and infer system\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Check \"undefined#decimal\"\n0ms start working\n0ms compose #1\n1ms compose #2\n1ms add whole code system\n1ms import value set http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5\n1ms start working\n1ms compose #1\n1ms compose #2\n1ms add whole code system\n2ms finish up\n3ms finish up\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Inferred CodeSystem = \"http://hl7.org/fhir/fhir-types\"\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Include for http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-ballot5 not considered for \"http://hl7.org/fhir/fhir-types\"\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Check included value set http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Check \"http://hl7.org/fhir/fhir-types#decimal\"\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: CodeSystem found: http://hl7.org/fhir/fhir-types|6.0.0-ballot5 for http://hl7.org/fhir/fhir-types|6.0.0-ballot5\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: check code in (http://hl7.org/fhir/fhir-types) at \n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Code \"decimal\" found in http://hl7.org/fhir/fhir-types|6.0.0-ballot5",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "integer"
+}, "url": "http://hl7.org/fhir/ValueSet/elementdefinition-types", "version": "6.0.0-ballot5", "langs":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"true", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en-US"
+  }]
+}}####
+v: {
+  "display" : "integer",
+  "code" : "integer",
+  "system" : "http://hl7.org/fhir/fhir-types",
+  "version" : "6.0.0-ballot5",
+  "server" : "https://tx.fhir.org/r5",
+  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Analysing http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Parameters: disp-lang=en-US, generate-narrative, default-to-latest\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Prepare include[0]: \"(http://hl7.org/fhir/CodeSystem/fhirpath-types)\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: CodeSystem found: \"http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-ballot5\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Prepare include[1]: \"(^http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5)\"\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Analysing http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Prepare include[0]: \"(http://hl7.org/fhir/fhir-types)\"\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: CodeSystem found: \"http://hl7.org/fhir/fhir-types|6.0.0-ballot5\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Validate \"[undefined#integer (\"undefined\")]\" and infer system\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Check \"undefined#integer\"\n0ms start working\n0ms compose #1\n0ms compose #2\n0ms add whole code system\n0ms import value set http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5\n1ms start working\n1ms compose #1\n1ms compose #2\n1ms add whole code system\n2ms finish up\n3ms finish up\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Inferred CodeSystem = \"http://hl7.org/fhir/fhir-types\"\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Include for http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-ballot5 not considered for \"http://hl7.org/fhir/fhir-types\"\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Check included value set http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Check \"http://hl7.org/fhir/fhir-types#integer\"\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: CodeSystem found: http://hl7.org/fhir/fhir-types|6.0.0-ballot5 for http://hl7.org/fhir/fhir-types|6.0.0-ballot5\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: check code in (http://hl7.org/fhir/fhir-types) at \n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Code \"integer\" found in http://hl7.org/fhir/fhir-types|6.0.0-ballot5",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "date"
+}, "url": "http://hl7.org/fhir/ValueSet/elementdefinition-types", "version": "6.0.0-ballot5", "langs":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"true", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en-US"
+  }]
+}}####
+v: {
+  "display" : "date",
+  "code" : "date",
+  "system" : "http://hl7.org/fhir/fhir-types",
+  "version" : "6.0.0-ballot5",
+  "server" : "https://tx.fhir.org/r5",
+  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Analysing http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Parameters: disp-lang=en-US, generate-narrative, default-to-latest\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Prepare include[0]: \"(http://hl7.org/fhir/CodeSystem/fhirpath-types)\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: CodeSystem found: \"http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-ballot5\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Prepare include[1]: \"(^http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5)\"\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Analysing http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Prepare include[0]: \"(http://hl7.org/fhir/fhir-types)\"\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: CodeSystem found: \"http://hl7.org/fhir/fhir-types|6.0.0-ballot5\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Validate \"[undefined#date (\"undefined\")]\" and infer system\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Check \"undefined#date\"\n0ms start working\n0ms compose #1\n0ms compose #2\n0ms add whole code system\n0ms import value set http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5\n0ms start working\n0ms compose #1\n1ms compose #2\n1ms add whole code system\n2ms finish up\n3ms finish up\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Inferred CodeSystem = \"http://hl7.org/fhir/fhir-types\"\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Include for http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-ballot5 not considered for \"http://hl7.org/fhir/fhir-types\"\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Check included value set http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Check \"http://hl7.org/fhir/fhir-types#date\"\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: CodeSystem found: http://hl7.org/fhir/fhir-types|6.0.0-ballot5 for http://hl7.org/fhir/fhir-types|6.0.0-ballot5\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: check code in (http://hl7.org/fhir/fhir-types) at \n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Code \"date\" found in http://hl7.org/fhir/fhir-types|6.0.0-ballot5",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "time"
+}, "url": "http://hl7.org/fhir/ValueSet/elementdefinition-types", "version": "6.0.0-ballot5", "langs":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"true", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en-US"
+  }]
+}}####
+v: {
+  "display" : "time",
+  "code" : "time",
+  "system" : "http://hl7.org/fhir/fhir-types",
+  "version" : "6.0.0-ballot5",
+  "server" : "https://tx.fhir.org/r5",
+  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Analysing http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Parameters: disp-lang=en-US, generate-narrative, default-to-latest\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Prepare include[0]: \"(http://hl7.org/fhir/CodeSystem/fhirpath-types)\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: CodeSystem found: \"http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-ballot5\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Prepare include[1]: \"(^http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5)\"\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Analysing http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Prepare include[0]: \"(http://hl7.org/fhir/fhir-types)\"\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: CodeSystem found: \"http://hl7.org/fhir/fhir-types|6.0.0-ballot5\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Validate \"[undefined#time (\"undefined\")]\" and infer system\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Check \"undefined#time\"\n0ms start working\n0ms compose #1\n0ms compose #2\n0ms add whole code system\n0ms import value set http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5\n0ms start working\n0ms compose #1\n0ms compose #2\n1ms add whole code system\n2ms finish up\n3ms finish up\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Inferred CodeSystem = \"http://hl7.org/fhir/fhir-types\"\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Include for http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-ballot5 not considered for \"http://hl7.org/fhir/fhir-types\"\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Check included value set http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Check \"http://hl7.org/fhir/fhir-types#time\"\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: CodeSystem found: http://hl7.org/fhir/fhir-types|6.0.0-ballot5 for http://hl7.org/fhir/fhir-types|6.0.0-ballot5\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: check code in (http://hl7.org/fhir/fhir-types) at \n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Code \"time\" found in http://hl7.org/fhir/fhir-types|6.0.0-ballot5",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "Attachment"
+}, "url": "http://hl7.org/fhir/ValueSet/elementdefinition-types", "version": "6.0.0-ballot5", "langs":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"true", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en-US"
+  }]
+}}####
+v: {
+  "display" : "Attachment",
+  "code" : "Attachment",
+  "system" : "http://hl7.org/fhir/fhir-types",
+  "version" : "6.0.0-ballot5",
+  "server" : "https://tx.fhir.org/r5",
+  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Analysing http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Parameters: disp-lang=en-US, generate-narrative, default-to-latest\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Prepare include[0]: \"(http://hl7.org/fhir/CodeSystem/fhirpath-types)\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: CodeSystem found: \"http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-ballot5\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Prepare include[1]: \"(^http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5)\"\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Analysing http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Prepare include[0]: \"(http://hl7.org/fhir/fhir-types)\"\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: CodeSystem found: \"http://hl7.org/fhir/fhir-types|6.0.0-ballot5\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Validate \"[undefined#Attachment (\"undefined\")]\" and infer system\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Check \"undefined#Attachment\"\n0ms start working\n0ms compose #1\n0ms compose #2\n0ms add whole code system\n1ms import value set http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5\n1ms start working\n1ms compose #1\n1ms compose #2\n1ms add whole code system\n2ms finish up\n3ms finish up\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Inferred CodeSystem = \"http://hl7.org/fhir/fhir-types\"\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Include for http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-ballot5 not considered for \"http://hl7.org/fhir/fhir-types\"\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Check included value set http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Check \"http://hl7.org/fhir/fhir-types#Attachment\"\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: CodeSystem found: http://hl7.org/fhir/fhir-types|6.0.0-ballot5 for http://hl7.org/fhir/fhir-types|6.0.0-ballot5\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: check code in (http://hl7.org/fhir/fhir-types) at \n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Code \"Attachment\" found in http://hl7.org/fhir/fhir-types|6.0.0-ballot5",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "Coding"
+}, "url": "http://hl7.org/fhir/ValueSet/elementdefinition-types", "version": "6.0.0-ballot5", "langs":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"true", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en-US"
+  }]
+}}####
+v: {
+  "display" : "Coding",
+  "code" : "Coding",
+  "system" : "http://hl7.org/fhir/fhir-types",
+  "version" : "6.0.0-ballot5",
+  "server" : "https://tx.fhir.org/r5",
+  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Analysing http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Parameters: disp-lang=en-US, generate-narrative, default-to-latest\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Prepare include[0]: \"(http://hl7.org/fhir/CodeSystem/fhirpath-types)\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: CodeSystem found: \"http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-ballot5\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Prepare include[1]: \"(^http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5)\"\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Analysing http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Prepare include[0]: \"(http://hl7.org/fhir/fhir-types)\"\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: CodeSystem found: \"http://hl7.org/fhir/fhir-types|6.0.0-ballot5\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Validate \"[undefined#Coding (\"undefined\")]\" and infer system\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Check \"undefined#Coding\"\n0ms start working\n0ms compose #1\n0ms compose #2\n0ms add whole code system\n0ms import value set http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5\n0ms start working\n0ms compose #1\n1ms compose #2\n1ms add whole code system\n1ms finish up\n3ms finish up\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Inferred CodeSystem = \"http://hl7.org/fhir/fhir-types\"\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Include for http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-ballot5 not considered for \"http://hl7.org/fhir/fhir-types\"\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Check included value set http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Check \"http://hl7.org/fhir/fhir-types#Coding\"\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: CodeSystem found: http://hl7.org/fhir/fhir-types|6.0.0-ballot5 for http://hl7.org/fhir/fhir-types|6.0.0-ballot5\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: check code in (http://hl7.org/fhir/fhir-types) at \n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Code \"Coding\" found in http://hl7.org/fhir/fhir-types|6.0.0-ballot5",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "Duration"
+}, "url": "http://hl7.org/fhir/ValueSet/elementdefinition-types", "version": "6.0.0-ballot5", "langs":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"true", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en-US"
+  }]
+}}####
+v: {
+  "display" : "Duration",
+  "code" : "Duration",
+  "system" : "http://hl7.org/fhir/fhir-types",
+  "version" : "6.0.0-ballot5",
+  "server" : "https://tx.fhir.org/r5",
+  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Analysing http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Parameters: disp-lang=en-US, generate-narrative, default-to-latest\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Prepare include[0]: \"(http://hl7.org/fhir/CodeSystem/fhirpath-types)\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: CodeSystem found: \"http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-ballot5\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Prepare include[1]: \"(^http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5)\"\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Analysing http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Prepare include[0]: \"(http://hl7.org/fhir/fhir-types)\"\n0ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: CodeSystem found: \"http://hl7.org/fhir/fhir-types|6.0.0-ballot5\"\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Validate \"[undefined#Duration (\"undefined\")]\" and infer system\n0ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Check \"undefined#Duration\"\n0ms start working\n0ms compose #1\n0ms compose #2\n1ms add whole code system\n1ms import value set http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5\n1ms start working\n1ms compose #1\n1ms compose #2\n1ms add whole code system\n2ms finish up\n3ms finish up\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Inferred CodeSystem = \"http://hl7.org/fhir/fhir-types\"\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Include for http://hl7.org/fhir/CodeSystem/fhirpath-types|6.0.0-ballot5 not considered for \"http://hl7.org/fhir/fhir-types\"\n3ms http://hl7.org/fhir/ValueSet/elementdefinition-types|6.0.0-ballot5: Check included value set http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Check \"http://hl7.org/fhir/fhir-types#Duration\"\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: CodeSystem found: http://hl7.org/fhir/fhir-types|6.0.0-ballot5 for http://hl7.org/fhir/fhir-types|6.0.0-ballot5\n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: check code in (http://hl7.org/fhir/fhir-types) at \n3ms http://hl7.org/fhir/ValueSet/fhir-types|6.0.0-ballot5: Code \"Duration\" found in http://hl7.org/fhir/fhir-types|6.0.0-ballot5",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "application/pdf"
+}, "url": "urn:uuid:ca3b62df-610a-4bc2-8711-161611133308", "version": "1", "langs":"en-US", "useServer":"true", "useClient":"false", "guessSystem":"true", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en-US"
+  }]
+}}####
+v: {
+  "display" : "application/pdf",
+  "code" : "application/pdf",
+  "system" : "urn:ietf:bcp:13",
+  "server" : "https://tx.fhir.org/r5",
+  "diagnostics" : "0ms tx-op\n0ms urn:uuid:ca3b62df-610a-4bc2-8711-161611133308|1: Analysing urn:uuid:ca3b62df-610a-4bc2-8711-161611133308|1 for validation purposes\n0ms urn:uuid:ca3b62df-610a-4bc2-8711-161611133308|1: Parameters: disp-lang=en-US, generate-narrative, default-to-latest\n0ms urn:uuid:ca3b62df-610a-4bc2-8711-161611133308|1: Prepare include[0]: \"(urn:ietf:bcp:13)\"\n0ms urn:uuid:ca3b62df-610a-4bc2-8711-161611133308|1: CodeSystem found: \"urn:ietf:bcp:13|null\"\n1ms urn:uuid:ca3b62df-610a-4bc2-8711-161611133308|1: Validate \"[undefined#application/pdf (\"undefined\")]\" and infer system\n1ms urn:uuid:ca3b62df-610a-4bc2-8711-161611133308|1: Check \"undefined#application/pdf\"\n1ms urn:uuid:ca3b62df-610a-4bc2-8711-161611133308|1: Inferred CodeSystem = \"urn:ietf:bcp:13\"\n1ms urn:uuid:ca3b62df-610a-4bc2-8711-161611133308|1: CodeSystem found: urn:ietf:bcp:13|null for urn:ietf:bcp:13\n1ms urn:uuid:ca3b62df-610a-4bc2-8711-161611133308|1: check code in (urn:ietf:bcp:13) at \n1ms urn:uuid:ca3b62df-610a-4bc2-8711-161611133308|1: Code \"application/pdf\" found in urn:ietf:bcp:13|null",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "application/pdf"
+}, "url": "urn:uuid:68919034-13ae-487a-8866-f21e3e64acfb", "version": "1", "langs":"en-US", "useServer":"true", "useClient":"false", "guessSystem":"true", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en-US"
+  }]
+}}####
+v: {
+  "display" : "application/pdf",
+  "code" : "application/pdf",
+  "system" : "urn:ietf:bcp:13",
+  "server" : "https://tx.fhir.org/r5",
+  "diagnostics" : "0ms tx-op\n0ms urn:uuid:68919034-13ae-487a-8866-f21e3e64acfb|1: Analysing urn:uuid:68919034-13ae-487a-8866-f21e3e64acfb|1 for validation purposes\n0ms urn:uuid:68919034-13ae-487a-8866-f21e3e64acfb|1: Parameters: disp-lang=en-US, generate-narrative, default-to-latest\n0ms urn:uuid:68919034-13ae-487a-8866-f21e3e64acfb|1: Prepare include[0]: \"(urn:ietf:bcp:13)\"\n0ms urn:uuid:68919034-13ae-487a-8866-f21e3e64acfb|1: CodeSystem found: \"urn:ietf:bcp:13|null\"\n0ms urn:uuid:68919034-13ae-487a-8866-f21e3e64acfb|1: Validate \"[undefined#application/pdf (\"undefined\")]\" and infer system\n0ms urn:uuid:68919034-13ae-487a-8866-f21e3e64acfb|1: Check \"undefined#application/pdf\"\n0ms urn:uuid:68919034-13ae-487a-8866-f21e3e64acfb|1: Inferred CodeSystem = \"urn:ietf:bcp:13\"\n0ms urn:uuid:68919034-13ae-487a-8866-f21e3e64acfb|1: CodeSystem found: urn:ietf:bcp:13|null for urn:ietf:bcp:13\n0ms urn:uuid:68919034-13ae-487a-8866-f21e3e64acfb|1: check code in (urn:ietf:bcp:13) at \n0ms urn:uuid:68919034-13ae-487a-8866-f21e3e64acfb|1: Code \"application/pdf\" found in urn:ietf:bcp:13|null",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "application/pdf"
+}, "url": "http://hl7.org/fhir/ValueSet/mimetypes", "version": "6.0.0-ballot5", "langs":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"true", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en-US"
+  }]
+}}####
+v: {
+  "display" : "application/pdf",
+  "code" : "application/pdf",
+  "system" : "urn:ietf:bcp:13",
+  "server" : "https://tx.fhir.org/r5",
+  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/ValueSet/mimetypes|6.0.0-ballot5: Analysing http://hl7.org/fhir/ValueSet/mimetypes|6.0.0-ballot5 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/mimetypes|6.0.0-ballot5: Parameters: disp-lang=en-US, generate-narrative, default-to-latest\n0ms http://hl7.org/fhir/ValueSet/mimetypes|6.0.0-ballot5: Prepare include[0]: \"(urn:ietf:bcp:13)\"\n0ms http://hl7.org/fhir/ValueSet/mimetypes|6.0.0-ballot5: CodeSystem found: \"urn:ietf:bcp:13|null\"\n0ms http://hl7.org/fhir/ValueSet/mimetypes|6.0.0-ballot5: Validate \"[undefined#application/pdf (\"undefined\")]\" and infer system\n0ms http://hl7.org/fhir/ValueSet/mimetypes|6.0.0-ballot5: Check \"undefined#application/pdf\"\n0ms http://hl7.org/fhir/ValueSet/mimetypes|6.0.0-ballot5: Inferred CodeSystem = \"urn:ietf:bcp:13\"\n0ms http://hl7.org/fhir/ValueSet/mimetypes|6.0.0-ballot5: CodeSystem found: urn:ietf:bcp:13|null for urn:ietf:bcp:13\n0ms http://hl7.org/fhir/ValueSet/mimetypes|6.0.0-ballot5: check code in (urn:ietf:bcp:13) at \n0ms http://hl7.org/fhir/ValueSet/mimetypes|6.0.0-ballot5: Code \"application/pdf\" found in urn:ietf:bcp:13|null",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "wk"
+}, "url": "http://hl7.org/fhir/ValueSet/units-of-time", "version": "6.0.0-ballot5", "langs":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"true", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en-US"
+  }]
+}}####
+v: {
+  "display" : "wk",
+  "code" : "wk",
+  "system" : "http://unitsofmeasure.org",
+  "version" : "2.2",
+  "server" : "https://tx.fhir.org/r5",
+  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/ValueSet/units-of-time|6.0.0-ballot5: Analysing http://hl7.org/fhir/ValueSet/units-of-time|6.0.0-ballot5 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/units-of-time|6.0.0-ballot5: Parameters: disp-lang=en-US, generate-narrative, default-to-latest\n0ms http://hl7.org/fhir/ValueSet/units-of-time|6.0.0-ballot5: Prepare include[0]: \"(http://unitsofmeasure.org)(s,min,h,d,wk,mo,a)\"\n0ms http://hl7.org/fhir/ValueSet/units-of-time|6.0.0-ballot5: CodeSystem found: \"http://unitsofmeasure.org|2.2\"\n0ms http://hl7.org/fhir/ValueSet/units-of-time|6.0.0-ballot5: Validate \"[undefined#wk (\"undefined\")]\" and infer system\n0ms http://hl7.org/fhir/ValueSet/units-of-time|6.0.0-ballot5: Check \"undefined#wk\"\n0ms http://hl7.org/fhir/ValueSet/units-of-time|6.0.0-ballot5: Inferred CodeSystem = \"http://unitsofmeasure.org\"\n0ms http://hl7.org/fhir/ValueSet/units-of-time|6.0.0-ballot5: CodeSystem found: http://unitsofmeasure.org|2.2 for http://unitsofmeasure.org\n0ms http://hl7.org/fhir/ValueSet/units-of-time|6.0.0-ballot5: check code in (http://unitsofmeasure.org)(s,min,h,d,wk,mo,a) at \n0ms http://hl7.org/fhir/ValueSet/units-of-time|6.0.0-ballot5: Code \"wk\" found in http://unitsofmeasure.org|2.2",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "application/pdf"
+}, "url": "urn:uuid:85d6c406-6cd8-4263-855f-cd14057d3c29", "version": "1", "langs":"en-US", "useServer":"true", "useClient":"false", "guessSystem":"true", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en-US"
+  }]
+}}####
+v: {
+  "display" : "application/pdf",
+  "code" : "application/pdf",
+  "system" : "urn:ietf:bcp:13",
+  "server" : "https://tx.fhir.org/r4",
+  "diagnostics" : "0ms tx-op\n0ms urn:uuid:85d6c406-6cd8-4263-855f-cd14057d3c29|1: Analysing urn:uuid:85d6c406-6cd8-4263-855f-cd14057d3c29|1 for validation purposes\n0ms urn:uuid:85d6c406-6cd8-4263-855f-cd14057d3c29|1: Parameters: disp-lang=en-US, generate-narrative, default-to-latest\n0ms urn:uuid:85d6c406-6cd8-4263-855f-cd14057d3c29|1: Prepare include[0]: \"(urn:ietf:bcp:13)\"\n0ms urn:uuid:85d6c406-6cd8-4263-855f-cd14057d3c29|1: CodeSystem found: \"urn:ietf:bcp:13|null\"\n0ms urn:uuid:85d6c406-6cd8-4263-855f-cd14057d3c29|1: Validate \"[undefined#application/pdf (\"undefined\")]\" and infer system\n1ms urn:uuid:85d6c406-6cd8-4263-855f-cd14057d3c29|1: Check \"undefined#application/pdf\"\n1ms urn:uuid:85d6c406-6cd8-4263-855f-cd14057d3c29|1: Inferred CodeSystem = \"urn:ietf:bcp:13\"\n1ms urn:uuid:85d6c406-6cd8-4263-855f-cd14057d3c29|1: CodeSystem found: urn:ietf:bcp:13|null for urn:ietf:bcp:13\n1ms urn:uuid:85d6c406-6cd8-4263-855f-cd14057d3c29|1: check code in (urn:ietf:bcp:13) at \n1ms urn:uuid:85d6c406-6cd8-4263-855f-cd14057d3c29|1: Code \"application/pdf\" found in urn:ietf:bcp:13|null",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "application/pdf"
+}, "url": "http://hl7.org/fhir/ValueSet/mimetypes", "version": "4.0.1", "langs":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"true", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en-US"
+  }]
+}}####
+v: {
+  "display" : "application/pdf",
+  "code" : "application/pdf",
+  "system" : "urn:ietf:bcp:13",
+  "server" : "https://tx.fhir.org/r4",
+  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: Analysing http://hl7.org/fhir/ValueSet/mimetypes|4.0.1 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: Parameters: disp-lang=en-US, generate-narrative, default-to-latest\n0ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: Prepare include[0]: \"(urn:ietf:bcp:13)\"\n0ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: CodeSystem found: \"urn:ietf:bcp:13|null\"\n0ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: Validate \"[undefined#application/pdf (\"undefined\")]\" and infer system\n0ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: Check \"undefined#application/pdf\"\n0ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: Inferred CodeSystem = \"urn:ietf:bcp:13\"\n0ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: CodeSystem found: urn:ietf:bcp:13|null for urn:ietf:bcp:13\n0ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: check code in (urn:ietf:bcp:13) at \n0ms http://hl7.org/fhir/ValueSet/mimetypes|4.0.1: Code \"application/pdf\" found in urn:ietf:bcp:13|null",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "wk"
+}, "url": "http://hl7.org/fhir/ValueSet/units-of-time", "version": "4.0.1", "langs":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"true", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en-US"
+  }]
+}}####
+v: {
+  "display" : "wk",
+  "code" : "wk",
+  "system" : "http://unitsofmeasure.org",
+  "version" : "2.2",
+  "server" : "https://tx.fhir.org/r4",
+  "diagnostics" : "0ms tx-op\n0ms http://hl7.org/fhir/ValueSet/units-of-time|4.0.1: Analysing http://hl7.org/fhir/ValueSet/units-of-time|4.0.1 for validation purposes\n0ms http://hl7.org/fhir/ValueSet/units-of-time|4.0.1: Parameters: disp-lang=en-US, generate-narrative, default-to-latest\n0ms http://hl7.org/fhir/ValueSet/units-of-time|4.0.1: Prepare include[0]: \"(http://unitsofmeasure.org)(s,min,h,d,wk,mo,a)\"\n1ms http://hl7.org/fhir/ValueSet/units-of-time|4.0.1: CodeSystem found: \"http://unitsofmeasure.org|2.2\"\n1ms http://hl7.org/fhir/ValueSet/units-of-time|4.0.1: Validate \"[undefined#wk (\"undefined\")]\" and infer system\n1ms http://hl7.org/fhir/ValueSet/units-of-time|4.0.1: Check \"undefined#wk\"\n1ms http://hl7.org/fhir/ValueSet/units-of-time|4.0.1: Inferred CodeSystem = \"http://unitsofmeasure.org\"\n1ms http://hl7.org/fhir/ValueSet/units-of-time|4.0.1: CodeSystem found: http://unitsofmeasure.org|2.2 for http://unitsofmeasure.org\n1ms http://hl7.org/fhir/ValueSet/units-of-time|4.0.1: check code in (http://unitsofmeasure.org)(s,min,h,d,wk,mo,a) at \n1ms http://hl7.org/fhir/ValueSet/units-of-time|4.0.1: Code \"wk\" found in http://unitsofmeasure.org|2.2",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "coding" : [{
+    "system" : "http://loinc.org",
+    "code" : "59284-0",
+    "display" : "Consent Document"
+  }]
+}, "url": "http://hl7.org/fhir/ValueSet/consent-category", "version": "4.0.1", "langs":"en-US", "useServer":"true", "useClient":"false", "guessSystem":"false", "noAbstract":"false", "activeOnly":"false", "membershipOnly":"false", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  },
+  {
+    "name" : "defaultDisplayLanguage",
+    "valueCode" : "en-US"
+  }]
+}}####
+v: {
+  "display" : "Consent Document",
+  "code" : "59284-0",
+  "system" : "http://loinc.org",
+  "version" : "2.82",
+  "server" : "https://tx.fhir.org/r4",
+  "diagnostics" : "0ms tx-op\n3ms http://hl7.org/fhir/ValueSet/consent-category|4.0.1: Analysing http://hl7.org/fhir/ValueSet/consent-category|4.0.1 for validation purposes\n3ms http://hl7.org/fhir/ValueSet/consent-category|4.0.1: Parameters: disp-lang=en-US, generate-narrative, default-to-latest\n3ms http://hl7.org/fhir/ValueSet/consent-category|4.0.1: Prepare include[0]: \"(http://terminology.hl7.org/CodeSystem/consentcategorycodes)\"\n3ms http://hl7.org/fhir/ValueSet/consent-category|4.0.1: CodeSystem found: \"http://terminology.hl7.org/CodeSystem/consentcategorycodes|1.0.1\"\n3ms http://hl7.org/fhir/ValueSet/consent-category|4.0.1: Prepare include[1]: \"(^http://terminology.hl7.org/ValueSet/v3-ActConsentType)\"\n3ms http://terminology.hl7.org/ValueSet/v3-ActConsentType|3.0.0: Analysing http://terminology.hl7.org/ValueSet/v3-ActConsentType|3.0.0 for validation purposes\n3ms http://terminology.hl7.org/ValueSet/v3-ActConsentType|3.0.0: Prepare include[0]: \"(http://terminology.hl7.org/CodeSystem/v3-ActCode)(conceptis-a_ActConsentType)\"\n3ms http://terminology.hl7.org/ValueSet/v3-ActConsentType|3.0.0: CodeSystem found: \"http://terminology.hl7.org/CodeSystem/v3-ActCode|11.0.0\"\n3ms http://hl7.org/fhir/ValueSet/consent-category|4.0.1: Prepare include[2]: \"(http://loinc.org)(59284-0,57016-8,57017-6,64292-6)\"\n4ms http://hl7.org/fhir/ValueSet/consent-category|4.0.1: CodeSystem found: \"http://loinc.org|2.82\"\n4ms http://hl7.org/fhir/ValueSet/consent-category|4.0.1: Validate \"[http://loinc.org#59284-0 (\"Consent Document\")]\"\n5ms http://hl7.org/fhir/ValueSet/consent-category|4.0.1: Check \"http://loinc.org#59284-0\"\n5ms http://hl7.org/fhir/ValueSet/consent-category|4.0.1: Include for http://terminology.hl7.org/CodeSystem/consentcategorycodes not considered for \"http://loinc.org\"\n5ms http://hl7.org/fhir/ValueSet/consent-category|4.0.1: Check included value set http://terminology.hl7.org/ValueSet/v3-ActConsentType\n5ms http://terminology.hl7.org/ValueSet/v3-ActConsentType|3.0.0: Check \"http://loinc.org#59284-0\"\n5ms http://terminology.hl7.org/ValueSet/v3-ActConsentType|3.0.0: Include for http://terminology.hl7.org/CodeSystem/v3-ActCode not considered for \"http://loinc.org\"\n5ms http://hl7.org/fhir/ValueSet/consent-category|4.0.1: CodeSystem found: http://loinc.org|2.82 for http://loinc.org\n5ms http://hl7.org/fhir/ValueSet/consent-category|4.0.1: check code in (http://loinc.org)(59284-0,57016-8,57017-6,64292-6) at CodeableConcept.coding[0]\n5ms http://hl7.org/fhir/ValueSet/consent-category|4.0.1: Code \"59284-0\" found in http://loinc.org|2.82",
+  "issues" : {
+  "resourceType" : "OperationOutcome"
+}
+
+}
+-------------------------------------------------------------------------------------
