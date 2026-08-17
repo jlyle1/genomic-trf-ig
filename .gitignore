@@ -8,3 +8,5 @@ fsh-generated/
 
 # IG Publisher working files
 input-cache/txcache/
+template/onGenerate-*.xml
+template/onGenerate-*.json
