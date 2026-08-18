@@ -1,6 +1,6 @@
 # Genomic Test Requisition Form (TRF) IG
 
-This draft Implementation Guide defines a cross-vendor, FHIR R6 model for submitting and fulfilling genomic test requisitions. The focus is a scan-friendly representation of the information recurring across oncology, tumor-profiling, hereditary-cancer, and blood-based molecular-testing forms.
+This draft Implementation Guide defines a cross-vendor, FHIR R4 model for submitting and fulfilling genomic test requisitions. The focus is a scan-friendly representation of the information recurring across oncology, tumor-profiling, hereditary-cancer, and blood-based molecular-testing forms.
 
 ## Scope
 
@@ -8,12 +8,12 @@ This draft Implementation Guide defines a cross-vendor, FHIR R6 model for submit
 
 ## Core relationships
 
-| Business relationship | FHIR R6 expression |
+| Business relationship | FHIR R4 expression |
 |---|---|
 | uses specimen | `Specimen.request` → `ServiceRequest` |
-| has indication | `ServiceRequest.reason` → `Condition`/clinical evidence |
+| has indication | `ServiceRequest.reasonReference` → `Condition`/clinical evidence |
 | has TRF answers | `QuestionnaireResponse.basedOn` → `ServiceRequest` |
-| results in study | `GenomicStudy.basedOn` → `ServiceRequest` |
+| results in study | `Observation.basedOn` → `ServiceRequest` (genomic findings) |
 | has pathology evidence | `ServiceRequest.supportingInfo` → `DocumentReference`/`Observation` |
 | captures consent | `Consent.sourceReference` → `QuestionnaireResponse` |
 
